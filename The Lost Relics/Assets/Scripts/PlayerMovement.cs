@@ -6,7 +6,7 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float jumpPower;
     [SerializeField] private LayerMask groundLayer;
     private Rigidbody2D rb;
-    //private Animator anim;
+    private Animator anim;
     private BoxCollider2D boxCollider2D;
     private float horizontalInput;
 
@@ -14,7 +14,7 @@ public class PlayerMovement : MonoBehaviour
     {
         // Grab References
         rb = GetComponent<Rigidbody2D>();
-        //anim = GetComponent<Animator>();
+        anim = GetComponent<Animator>();
         boxCollider2D = GetComponent<BoxCollider2D>();
     }
 
@@ -41,10 +41,10 @@ public class PlayerMovement : MonoBehaviour
         // Player left/right movement
         rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
 
-        
-        // Set Animator Parameters (When anims are set up)
-        // anim.SetBool("run", horizontalInput != 0);
-        // anim.SetBool("grounded", IsGrounded());
+
+        // Set Animator Parameters
+        anim.SetBool("run", horizontalInput != 0);
+        anim.SetBool("grounded", IsGrounded());
 
     }
 
@@ -53,11 +53,11 @@ public class PlayerMovement : MonoBehaviour
         if (IsGrounded())
         {
             rb.velocity = new Vector2(rb.velocity.x, jumpPower);
-            //anim.SetTrigger("jump"); // When anims and sprites are chosen.
+            anim.SetTrigger("jump"); // When anims and sprites are chosen.
         }
-        
+
     }
-    
+
     /**
      * This detects if the player is on the ground. Ground layer must be set.
      * */
