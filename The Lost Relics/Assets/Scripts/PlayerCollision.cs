@@ -15,7 +15,6 @@ public class PlayerCollision : MonoBehaviour
         {
             coins++;
             Destroy(collider2D.gameObject);
-            Debug.Log(" " + coins);
         }
     }
 }
