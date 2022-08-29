@@ -9,16 +9,25 @@ public class GameData
 {
     public int coins_balance;
     public int health;
-    public int location_x;
-    public int location_y;
     public int relics;
+public Vector3 playerPosition;
+    public Dictionary<string, bool> coinsCollected;
+    public Dictionary <string,bool> relicsCollected;
 
 
 // new GameData when there is no saved games to load
     public GameData()
     {
         // default values 
+
+   
+        playerPosition = Vector3.zero;
         this.coins_balance = 0;
-        this.health = 100;
+        this.health = 10;
+        coinsCollected = new Dictionary<string, bool>();
+        relicsCollected = new Dictionary<string, bool>();
+
     }
+
+
 }

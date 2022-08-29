@@ -4,5 +4,9 @@ using UnityEngine;
 
 public interface IDataPercistence 
 {
+
+    void LoadData(GameData data);
     void SaveData(ref GameData data);
+
+
 }

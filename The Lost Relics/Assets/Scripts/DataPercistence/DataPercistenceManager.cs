@@ -6,10 +6,17 @@ using System.Linq;
 public class DataPercistenceManager : MonoBehaviour
 {
 
+    [Header("File storage config")]
+
+    [SerializeField] private string fileName;
+
     private GameData gameData;
     private List<IDataPercistence> dataPercistenceObjects;
 
     public static DataPercistenceManager instance { get; private set; }
+
+
+    private FileDataHandler dataHandler;
 
 
     private void Awake()
@@ -24,8 +31,12 @@ public class DataPercistenceManager : MonoBehaviour
 
     private void Start()
     {
+
+        this.dataHandler = new FileDataHandler(Application.persistentDataPath,fileName);
         this.dataPercistenceObjects = FindDataPercistenceObjects();
+
         loadGame();
+        Debug.Log(" game loaded");
     }
 
     public void newGame()
@@ -40,13 +51,28 @@ public class DataPercistenceManager : MonoBehaviour
             dataPercistenceOjbject.SaveData(ref gameData);
         }
 
-        Debug.Log("coin balance  =  " + gameData.coins_balance);
+   //     Debug.Log("coin balance  =  " + gameData.coins_balance);
+
+
+        dataHandler.Save(gameData);
+
     }
 
     public void loadGame()
     {
-        //DO LATER
-        // 
+
+        this.gameData = dataHandler.Load();
+
+        if (this.gameData == null)
+        {
+            Debug.Log("no game data found. starting new game");
+            newGame();
+        }
+        foreach (IDataPercistence dataPercistenceObject in dataPercistenceObjects)
+        {
+            dataPercistenceObject.LoadData(gameData);
+        }
+        Debug.Log(" hi hi ");
     }
 
 
@@ -58,5 +84,12 @@ public class DataPercistenceManager : MonoBehaviour
 
         return new List<IDataPercistence>(dataPercistenceObjects);
     }
+
+
+    private void OnApplicationQuit()
+    {
+        saveGame();
+    }
+
 
 }
