@@ -13,6 +13,9 @@ public class Health : MonoBehaviour
     public void DecreaseHealth(float health) 
     {
         currentHealth -= health;
+        Debug.Log("Took " + health + " damage");
+        Debug.Log("Current Health: " + currentHealth);
+
         if (currentHealth > 0)
         {
             // play hurt animation
@@ -20,21 +23,29 @@ public class Health : MonoBehaviour
         else
         {
             // play dead animation, go to dead screen etc.
+            Debug.Log("Dead");
         }
     }
 
-    public void IncreaseHealth(float health)
+    // returns true if increased health
+    // returns false if player has maximum health already
+    public bool IncreaseHealth(float health)
     {
         if (currentHealth + health <= maxHealth)
         {
             currentHealth += health;
+            Debug.Log("Increased " + health + " health");
+            Debug.Log("Current Health: " + currentHealth);
+            return true;
         }
+
+        return false;
     }
 
-    // Press 'E' to test damage
+    // Press 'F' to test damage
     public void Update()
     {
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.F))
         {
             DecreaseHealth(1);
         }

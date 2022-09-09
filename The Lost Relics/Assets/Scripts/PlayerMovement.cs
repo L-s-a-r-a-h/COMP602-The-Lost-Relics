@@ -22,7 +22,6 @@ public class PlayerMovement : MonoBehaviour
     {
         horizontalInput = Input.GetAxis("Horizontal");
 
-
         // Flip player depending on direction of movement
         if (horizontalInput > 0.01f)
         {
@@ -33,7 +32,8 @@ public class PlayerMovement : MonoBehaviour
             transform.localScale = new Vector3(-1, 1, 1);
         }
 
-        if (Input.GetKey(KeyCode.Space))
+        // Jump if 'W' or spacebar pressed
+        if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W))
         {
             Jump();
         }
@@ -41,11 +41,9 @@ public class PlayerMovement : MonoBehaviour
         // Player left/right movement
         rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
 
-
         // Set Animator Parameters
         anim.SetBool("run", horizontalInput != 0);
         anim.SetBool("grounded", IsGrounded());
-
     }
 
     private void Jump()
@@ -58,9 +56,7 @@ public class PlayerMovement : MonoBehaviour
 
     }
 
-    /**
-     * This detects if the player is on the ground. Ground layer must be set.
-     * */
+    // This detects if the player is on the ground. Ground layer must be set.
     private bool IsGrounded()
     {
         RaycastHit2D raycastHit = Physics2D.BoxCast(boxCollider2D.bounds.center, boxCollider2D.bounds.size, 0, Vector2.down, 0.1f, groundLayer);

@@ -6,9 +6,8 @@ public class HealthPotion : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Player") 
+        if (collision.gameObject.name == "Player" && collision.GetComponent<Health>().IncreaseHealth(healthValue))
         {
-            collision.GetComponent<Health>().IncreaseHealth(healthValue);
             gameObject.SetActive(false);
         }
     }
