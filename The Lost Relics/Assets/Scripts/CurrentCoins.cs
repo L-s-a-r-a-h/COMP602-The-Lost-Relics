@@ -6,10 +6,14 @@ using TMPro;
 public class CurrentCoins : MonoBehaviour
 { 
 
-    public static int numCoins = 0;
+    public static int numCoins;
     public TextMeshProUGUI coinsText;
 
   
+    private void Awake()
+    {
+        numCoins = 0;
+    }
 
     // Update is called once per frame
     void Update()
