@@ -1,4 +1,3 @@
-using System;
 using UnityEngine;
 
 public abstract class Interactable : MonoBehaviour
@@ -15,6 +14,7 @@ public abstract class Interactable : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
+        // return if player isn't in range
         if (!playerInRange)
         {
             if (interacting == true)

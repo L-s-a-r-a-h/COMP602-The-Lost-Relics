@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class InteractTest : Interactable
+public class InteractMessage : Interactable
 {
     [SerializeField] private TextMeshPro message;
 
