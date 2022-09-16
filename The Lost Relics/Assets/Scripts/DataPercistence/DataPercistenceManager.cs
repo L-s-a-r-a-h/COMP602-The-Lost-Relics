@@ -86,7 +86,12 @@ public class DataPercistenceManager : MonoBehaviour
     }
 
 
-    private void OnApplicationQuit()
+   /* private void OnApplicationQuit()
+    {
+        saveGame();
+    }*/
+
+    public void ButtonSave()
     {
         saveGame();
     }

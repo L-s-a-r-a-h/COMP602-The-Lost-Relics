@@ -5,10 +5,10 @@ using UnityEngine;
 public class manager : MonoBehaviour, IDataPercistence
 {
 
-
     public void LoadData(GameData data)
     {
         Debug.Log("loading position");
+        
         this.transform.position = data.playerPosition;
     }
 
@@ -16,6 +16,8 @@ public class manager : MonoBehaviour, IDataPercistence
     {
         Debug.Log("saving player position");
         data.playerPosition = this.transform.position;
+        Debug.Log("saving coin balance");
+        //data.coins_balance = collision.getCoins();
     }
 
 

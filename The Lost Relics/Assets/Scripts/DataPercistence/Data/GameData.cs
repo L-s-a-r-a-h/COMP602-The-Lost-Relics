@@ -10,7 +10,7 @@ public class GameData
     public int coins_balance;
     public int health;
     public int relics;
-public Vector3 playerPosition;
+    public Vector3 playerPosition;
     public Dictionary<string, bool> coinsCollected;
     public Dictionary <string,bool> relicsCollected;
 
