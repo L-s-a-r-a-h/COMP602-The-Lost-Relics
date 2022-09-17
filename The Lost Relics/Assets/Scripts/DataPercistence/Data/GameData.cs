@@ -8,10 +8,9 @@ using UnityEngine;
 public class GameData
 {
     public int coins_balance;
-    public int health;
+    public float current_health;
     public int relics;
     public Vector3 playerPosition;
-    public Dictionary<string, bool> coinsCollected;
     public Dictionary <string,bool> relicsCollected;
 
 
@@ -23,8 +22,7 @@ public class GameData
    
         playerPosition = Vector3.zero;
         this.coins_balance = 0;
-        this.health = 10;
-        coinsCollected = new Dictionary<string, bool>();
+        this.current_health = 10;
         relicsCollected = new Dictionary<string, bool>();
 
     }
