@@ -12,6 +12,11 @@ public class ScrowDialog : Interactable
 
     public override void Interact()
     {
+        if(Trigger.trig == true)
+        {
+            message.text = "Thanks";
+        }
+
         message.enabled = true;
         Debug.Log("Interacted");
     }
