@@ -1,7 +1,7 @@
 using UnityEngine;
 using TMPro;
 
-public class InteractTest : Interactable
+public class ScrowDialog : Interactable
 {
     [SerializeField] private TextMeshPro message;
 
@@ -12,7 +12,7 @@ public class InteractTest : Interactable
 
     public override void Interact()
     {
-       message.enabled = true;
+        message.enabled = true;
         Debug.Log("Interacted");
     }
 
