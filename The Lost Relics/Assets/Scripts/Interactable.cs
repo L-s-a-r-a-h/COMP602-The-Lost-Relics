@@ -1,5 +1,6 @@
 using UnityEngine;
-
+// This is an abstract class that should be used for objects that the player can interact with in the game world by pressing 'E'.
+// Game Objects such as shops or NPCs may have their own scripts that inherits from this class.
 public abstract class Interactable : MonoBehaviour
 {
     private bool playerInRange;
@@ -25,8 +26,12 @@ public abstract class Interactable : MonoBehaviour
             return;
         }
 
-        // checks if the player can interact with the interactable object..
+        InputCheck();
+    }
 
+    // checks if the player can interact with the interactable object..
+    public void InputCheck()
+    {
         if (Input.GetKeyDown(KeyCode.E))
         {
             if (interacting == false)
