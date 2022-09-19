@@ -1,9 +1,13 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+
 using TMPro;
 
-public class InteractTest : Interactable
+public class DummyDialog : Interactable
 {
     [SerializeField] private TextMeshPro message;
+    public static bool shoot = false;
 
     private void Awake()
     {
@@ -12,12 +16,14 @@ public class InteractTest : Interactable
 
     public override void Interact()
     {
-       message.enabled = true;
+        shoot = true;
+        message.enabled = true;
         Debug.Log("Interacted");
     }
 
     public override void HideInteraction()
     {
+        shoot = false;
         message.enabled = false;
     }
 }
