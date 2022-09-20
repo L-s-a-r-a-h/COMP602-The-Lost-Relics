@@ -2,21 +2,22 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    [SerializeField] private float maxHealth;
-    public float currentHealth { get; private set; }
+    private static float MaxHealth;
+    public static float CurrentHealth { get; private set; }
 
     private void Awake() 
     {
-        currentHealth = maxHealth;
+        MaxHealth = 5;
+        CurrentHealth = MaxHealth;
     }
 
-    public void DecreaseHealth(float health) 
+    public static void DecreaseHealth(float health) 
     {
-        currentHealth -= health;
+        CurrentHealth -= health;
         Debug.Log("Took " + health + " damage");
-        Debug.Log("Current Health: " + currentHealth);
+        Debug.Log("Current Health: " + CurrentHealth);
 
-        if (currentHealth > 0)
+        if (CurrentHealth > 0)
         {
             // play hurt animation
         }
@@ -29,13 +30,13 @@ public class Health : MonoBehaviour
 
     // returns true if increased health
     // returns false if player has maximum health already
-    public bool IncreaseHealth(float health)
+    public static bool IncreaseHealth(float health)
     {
-        if (currentHealth + health <= maxHealth)
+        if (CurrentHealth + health <= MaxHealth)
         {
-            currentHealth += health;
+            CurrentHealth += health;
             Debug.Log("Increased " + health + " health");
-            Debug.Log("Current Health: " + currentHealth);
+            Debug.Log("Current Health: " + CurrentHealth);
             return true;
         }
 
