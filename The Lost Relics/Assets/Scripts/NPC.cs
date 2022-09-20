@@ -2,41 +2,53 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 public class NPC : MonoBehaviour
 {
     [SerializeField] public GameObject dialoguePanel;
-    [SerializeField] public Text dialogueText;
+    [SerializeField] public TextMeshProUGUI dialogueText;
+    [SerializeField] public TextMeshProUGUI Name;
     [SerializeField] public string[] dialogue;
     private int index;
+    private IEnumerator coroutine;
 
+    [SerializeField] GameObject contButton;
     [SerializeField] public float wordSpeed;
     [SerializeField] public bool playerIsClose;
 
+
     void Update()
     {
-        if(Input.GetKeyDown(KeyCode.E) && playerIsClose)
-            if(dialoguePanel.activeInHierachy)
+        if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
+        {
+            if (dialoguePanel.activeInHierarchy)
             {
                 zeroText();
             }
             else
             {
                 dialoguePanel.SetActive(true);
-                startCoroutine(Typing());
+                StartCoroutine(coroutine);
             }
+        }
+
+        if(dialogueText.text == dialogue[index])
+        {
+            contButton.SetActive(true);
+        }
     }
 
     public void zeroText()
     {
-        dialoguePanel.text = "";
+        dialogueText.text = "";
         index = 0;
         dialoguePanel.SetActive(false);
     }
 
-    IEnumerator Typing()
+    private IEnumerator Typing()
     {
-        foreach(char letter in dialogue[index].ToCharArray())
+        foreach (char letter in dialogue[index].ToCharArray())
         {
             dialogueText.text += letter;
             yield return new WaitForSeconds(wordSpeed);
@@ -45,7 +57,10 @@ public class NPC : MonoBehaviour
 
     public void NextLine()
     {
-        if(index < dialogue.length -1)
+
+        contButton.SetActive(false);
+
+        if(index < dialogue.Length -1)
         {
             index++;
             dialogueText.text = "";
