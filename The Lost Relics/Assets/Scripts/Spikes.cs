@@ -11,7 +11,7 @@ public class Spikes : MonoBehaviour
         if (collision.tag == "Player")
         {
             Debug.Log("Spiked");
-            collision.GetComponent<Health>().DecreaseHealth(damage);
+            Health.DecreaseHealth(damage);
         }
     }
 }
