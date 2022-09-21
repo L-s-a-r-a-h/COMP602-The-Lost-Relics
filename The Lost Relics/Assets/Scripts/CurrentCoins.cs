@@ -20,5 +20,4 @@ public class CurrentCoins : MonoBehaviour
     {
                 coinsText.text = "Coins: " + numCoins;
     }
-
 }

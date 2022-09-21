@@ -10,9 +10,7 @@ public class PlayerCollision : MonoBehaviour
     {
         if (collider2D.gameObject.CompareTag("Coin"))
         {
-       
+           
         }
     }
-
-
 }
