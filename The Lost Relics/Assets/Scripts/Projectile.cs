@@ -20,7 +20,7 @@ public class Projectile : MonoBehaviour
         if (collision.tag == "Player")
         {
             Debug.Log("Shot");
-            collision.GetComponent<Health>().DecreaseHealth(damage);
+            Health.DecreaseHealth(damage);
             Destroy(GetComponent<Collider2D>().gameObject);
         }
         if (collision.tag == "Item")
