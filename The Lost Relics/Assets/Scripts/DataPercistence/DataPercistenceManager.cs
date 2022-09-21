@@ -46,14 +46,10 @@ public class DataPercistenceManager : MonoBehaviour
 
     public void saveGame()
     {
-        foreach (IDataPercistence dataPercistenceOjbject in dataPercistenceObjects)
+        foreach (IDataPercistence dataPercistenceObject in dataPercistenceObjects)
         {
-            dataPercistenceOjbject.SaveData(ref gameData);
+            dataPercistenceObject.SaveData(ref gameData);
         }
-
-   //     Debug.Log("coin balance  =  " + gameData.coins_balance);
-
-
         dataHandler.Save(gameData);
 
     }

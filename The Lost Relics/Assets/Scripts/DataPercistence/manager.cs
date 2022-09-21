@@ -28,8 +28,8 @@ public class manager : MonoBehaviour, IDataPercistence
         data.playerPosition = this.transform.position;
         Debug.Log("saving coin balance ");
         data.coins_balance = CurrentCoins.numCoins;
-
-       // data.current_health = Health.currentHealth.get();
+      //  Debug.Log("saving health " + health.currentHealth);
+       // data.current_health = health.currentHealth;
 
 }
 
