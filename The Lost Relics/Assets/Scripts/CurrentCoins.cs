@@ -9,13 +9,14 @@ public class CurrentCoins : MonoBehaviour
     public static int numCoins;
     public TextMeshProUGUI coinsText;
 
-  
+  // start game with 0 coins
+  //will update once load function is ready
     private void Awake()
     {
         numCoins = 0;
     }
 
-    // Update is called once per frame
+    // keeps track of the amount of coins collected and updates the hud.
     void Update()
     {
                 coinsText.text = "Coins: " + numCoins;
