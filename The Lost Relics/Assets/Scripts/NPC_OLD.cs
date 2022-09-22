@@ -17,11 +17,14 @@ public class NPC : MonoBehaviour
     [SerializeField] public float wordSpeed;
     [SerializeField] public bool playerIsClose;
 
+  
 
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
+          
+
             if (dialoguePanel.activeInHierarchy)
             {
                 zeroText();
@@ -29,24 +32,28 @@ public class NPC : MonoBehaviour
             else
             {
                 dialoguePanel.SetActive(true);
+                //index = -1;
                 StartCoroutine(coroutine);
             }
         }
 
-        if(dialogueText.text == dialogue[index])
+        if (dialogueText.text == dialogue[index])
         {
             contButton.SetActive(true);
         }
+   
     }
 
     public void zeroText()
     {
+        //StopAllCoroutines();
         dialogueText.text = "";
         index = 0;
         dialoguePanel.SetActive(false);
+       
     }
 
-    private IEnumerator Typing()
+    IEnumerator Typing()
     {
         foreach (char letter in dialogue[index].ToCharArray())
         {
