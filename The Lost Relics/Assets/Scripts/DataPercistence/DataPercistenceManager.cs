@@ -39,6 +39,8 @@ public class DataPercistenceManager : MonoBehaviour
         Debug.Log(" game loaded");
     }
 
+
+
     public void newGame()
     {
         this.gameData = new GameData();
@@ -86,6 +88,8 @@ public class DataPercistenceManager : MonoBehaviour
     {
         saveGame();
     }*/
+
+
 
     public void ButtonSave()
     {
