@@ -23,9 +23,9 @@ public class GameData
    
         playerPosition = Vector3.zero;
         this.coins_balance = 0;
-        this.current_health = 10;
+        this.current_health = 5;
         relicsCollected = new Dictionary<string, bool>();
-        scene = "";
+        scene = " ";
 
     }
 
