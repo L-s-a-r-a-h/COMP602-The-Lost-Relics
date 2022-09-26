@@ -4,6 +4,17 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
+
+    public float projectileSpeed = 3;
+    private Rigidbody2D rigidody;
+
+    void Start()
+    {
+        rigidody = GetComponent<Rigidbody2D>();
+        rigidody.velocity = transform.right * projectileSpeed;
+    }
+
+    public int value;
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //When the player collides with the coin, its added to there invintory
@@ -11,7 +22,7 @@ public class Coin : MonoBehaviour
 
         if(collision.transform.tag == "Player")
         {
-            CurrentCoins.numCoins++;
+            CurrentCoins.numCoins = (CurrentCoins.numCoins+ value);
             Destroy(GetComponent<Collider2D>().gameObject);
             Debug.Log(CurrentCoins.numCoins);
         }
