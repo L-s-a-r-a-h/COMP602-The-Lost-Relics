@@ -11,6 +11,7 @@ public class Projectile : MonoBehaviour
 
     void Start()
     {
+
         rigidody = GetComponent<Rigidbody2D>();
         rigidody.velocity = transform.right * projectileSpeed;
     }
