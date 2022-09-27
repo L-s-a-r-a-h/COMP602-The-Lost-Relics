@@ -83,6 +83,10 @@ public class DataPercistenceManager : MonoBehaviour
         return new List<IDataPercistence>(dataPercistenceObjects);
     }
 
+    public string getSceneName()
+    {
+        return gameData.scene;
+    }
 
    /* private void OnApplicationQuit()
     {
