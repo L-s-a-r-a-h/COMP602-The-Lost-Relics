@@ -73,7 +73,7 @@ public class PlayerMovement : MonoBehaviour
     // This detects if the player is on the ground. Ground layer must be set.
     private bool IsGrounded()
     {
-        RaycastHit2D raycastHit = Physics2D.Raycast(transform.position, Vector2.down, 1.3f, groundLayer);
+        RaycastHit2D raycastHit = Physics2D.Raycast(transform.position, Vector2.down, boxCollider2D.bounds.extents.y + 0.1f, groundLayer);
 
         return raycastHit.collider != null;
     }

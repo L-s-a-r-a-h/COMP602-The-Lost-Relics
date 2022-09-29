@@ -12,7 +12,7 @@ public class InteractMessage : Interactable
 
     public override void Interact()
     {
-       message.enabled = true;
+        message.enabled = true;
         Debug.Log("Interacted");
     }
 
