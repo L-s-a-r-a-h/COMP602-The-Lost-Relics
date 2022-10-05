@@ -123,6 +123,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   startPos: {fileID: 5363246907620799840}
   item: {fileID: 6201597697101865244, guid: 17608723e98e1ee4184823d89f3e1d0a, type: 3}
+  locked: 0
 --- !u!1 &5363246907620799841
 GameObject:
   m_ObjectHideFlags: 0

@@ -8,7 +8,7 @@ public class OpenChest : Interactable
     private Animator anim;
     public Transform startPos;
     public GameObject item;
-    bool opened = false;
+    public bool locked;
 
    
 
@@ -22,17 +22,22 @@ public class OpenChest : Interactable
     public override void Interact()
     {
      
-        if (opened == false)
-        {
-            anim.enabled = true;
-            anim.Play("AM Chest Wooden - Open");
-            Instantiate(item, startPos.position, startPos.rotation);
-            Debug.Log("Opened");
-            opened = true;
-        }
+                   if (locked == true)
+            {
+                anim.enabled = true;
+                anim.Play("AM Chest Golden - Open");
+                Instantiate(item, startPos.position, startPos.rotation);
+                Debug.Log("Opened");
+            }
+            else
+            {
+                anim.enabled = true;
+                anim.Play("AM Chest Wooden - Open");
+                Instantiate(item, startPos.position, startPos.rotation);
+                Debug.Log("Opened");
+            }
+        
     }
-
-    
 
     public override void HideInteraction()
     {
