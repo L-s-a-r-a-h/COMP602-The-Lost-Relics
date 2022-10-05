@@ -5,7 +5,7 @@ using UnityEngine;
 public class Coin : MonoBehaviour
 {
     public int value;
-        public float projectileSpeed = 3;
+    public float projectileSpeed = 3;
     private Rigidbody2D rigidody;
 
     void Start()
