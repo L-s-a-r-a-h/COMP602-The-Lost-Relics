@@ -25,7 +25,7 @@ public class GameData
         this.coins_balance = 0;
         this.current_health = 5;
         relicsCollected = new Dictionary<string, bool>();
-        scene = "Tutorial";
+        scene = "";
 
     }
 
