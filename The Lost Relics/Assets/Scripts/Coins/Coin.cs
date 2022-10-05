@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Coin : MonoBehaviour
 {
-
-    public float projectileSpeed = 3;
+    public int value;
+        public float projectileSpeed = 3;
     private Rigidbody2D rigidody;
 
     void Start()
@@ -14,7 +14,7 @@ public class Coin : MonoBehaviour
         rigidody.velocity = transform.right * projectileSpeed;
     }
 
-    public int value;
+
     private void OnTriggerEnter2D(Collider2D collision)
     {
         //When the player collides with the coin, its added to there invintory
