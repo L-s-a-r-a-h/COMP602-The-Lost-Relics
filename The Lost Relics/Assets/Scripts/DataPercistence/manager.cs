@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+
 
 public class manager : MonoBehaviour, IDataPercistence
 {
@@ -18,6 +20,7 @@ public class manager : MonoBehaviour, IDataPercistence
         Health.CurrentHealth = data.current_health;
         Debug.Log("health :  " + data.current_health);
 
+        Debug.Log("LOAD :  " + data.scene);
 
     }
 
@@ -30,6 +33,7 @@ public class manager : MonoBehaviour, IDataPercistence
         data.coins_balance = CurrentCoins.numCoins;
       //  Debug.Log("saving health " + health.currentHealth);
         data.current_health = Health.CurrentHealth;
+        data.scene = SceneManager.GetActiveScene().name;
 
 }
 
