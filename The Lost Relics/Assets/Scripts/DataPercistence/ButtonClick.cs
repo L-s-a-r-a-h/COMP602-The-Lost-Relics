@@ -7,7 +7,9 @@ public class ButtonClick : MonoBehaviour
 
 public void ButtonLoad()
 {
-    DataPercistenceManager.instance.loadGame();
+        Debug.Log("button load");
+       // DataPercistenceManager.instance.loadScene();
+        DataPercistenceManager.instance.ButtonLoad();
 }
 
 public void ButtonSave()
