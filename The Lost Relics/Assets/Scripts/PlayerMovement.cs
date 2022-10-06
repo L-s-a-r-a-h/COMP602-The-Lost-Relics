@@ -57,6 +57,9 @@ public class PlayerMovement : MonoBehaviour
         {
             anim.SetTrigger("hurt");
             hurtAnimPlaying = true;
+            // knockback
+            rb.velocity = new Vector2(0, 0);
+            rb.AddForce(new Vector2(-transform.localScale.x * 7.5f, 7.5f), ForceMode2D.Impulse);
         }
     }
 
