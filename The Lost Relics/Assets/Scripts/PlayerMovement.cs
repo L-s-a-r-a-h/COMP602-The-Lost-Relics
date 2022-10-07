@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -9,11 +10,12 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     private BoxCollider2D boxCollider2D;
     private float horizontalInput;
-    public bool allowedToMoved = true;
+    private bool hurtAnimPlaying;
 
     private void Awake()
     {
         GetReferences();
+        hurtAnimPlaying = false;
     }
 
     private void GetReferences()
@@ -25,22 +27,34 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        if (allowedToMoved)
+        // freeze movement if talking with NPC
+        if (isTalking())
         {
-            FlipPlayer();
-            // Jump if 'W' or spacebar pressed
-            if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W))
-            {
-                Jump();
-            }
-            // Player left/right movement
-            rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
-
-            SetAnimatorParams();
+            rb.velocity = new Vector2(0, 0);
+            anim.SetBool("run", false);
+            anim.SetBool("falling", false);
+            anim.SetBool("grounded", true);
+            return;
         }
-       
 
+        FlipPlayer();
 
+        // Jump if 'W' or spacebar pressed
+        if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W))
+        {
+            Jump();
+        }
+
+        // Player left/right movement
+        rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
+
+        SetAnimatorParams();
+    }
+
+    private bool isTalking()
+    {
+        DialogueManager dm = GameObject.Find("DialogueManager").GetComponent<DialogueManager>();
+        return dm.talking;
     }
 
     // Set Animator Parameters
@@ -48,6 +62,37 @@ public class PlayerMovement : MonoBehaviour
     {
         anim.SetBool("run", horizontalInput != 0);
         anim.SetBool("grounded", IsGrounded());
+        anim.SetBool("falling", IsFalling());
+        CheckHurt();
+        anim.SetBool("hurting", hurtAnimPlaying);
+    }
+
+    private void CheckHurt()
+    {
+        if (Health.Hurt == true && hurtAnimPlaying == false)
+        {
+            anim.SetTrigger("hurt");
+            hurtAnimPlaying = true;
+            // knockback
+            rb.velocity = new Vector2(0, 0);
+            rb.AddForce(new Vector2(-transform.localScale.x * 7.5f, 7.5f), ForceMode2D.Impulse);
+        }
+    }
+
+    public void HurtAnimationDone()
+    {
+        Health.Hurt = false;
+        hurtAnimPlaying = false;
+    }
+
+    private bool IsFalling()
+    {
+        if (rb.velocity.y < -0.01f)
+        {
+            return true;        
+        }
+
+        return false;
     }
 
     // Flip player depending on direction of movement
