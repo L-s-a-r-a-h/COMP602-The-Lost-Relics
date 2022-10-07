@@ -2,7 +2,7 @@ using UnityEngine;
 
 public class Health : MonoBehaviour
 {
-    public static float MaxHealth;
+    private static float MaxHealth;
     public static float CurrentHealth;
     public static bool Hurt;
 
@@ -10,9 +10,10 @@ public class Health : MonoBehaviour
     {
         MaxHealth = 5;
         CurrentHealth = MaxHealth;
+        Hurt = false;
     }
 
-    public static void DecreaseHealth(float health) 
+    public static void DecreaseHealth(float health)
     {
         CurrentHealth -= health;
         Debug.Log("Took " + health + " damage");
@@ -21,6 +22,7 @@ public class Health : MonoBehaviour
         if (CurrentHealth > 0)
         {
             // play hurt animation
+            Hurt = true;
         }
         else
         {
@@ -43,7 +45,7 @@ public class Health : MonoBehaviour
 
         return false;
     }
-
+    
     // Press 'F' to test damage
     public void Update()
     {
