@@ -9,6 +9,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator anim;
     private BoxCollider2D boxCollider2D;
     private float horizontalInput;
+    public bool allowedToMoved = true;
 
     private void Awake()
     {
@@ -24,18 +25,22 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        FlipPlayer();
-
-        // Jump if 'W' or spacebar pressed
-        if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W))
+        if (allowedToMoved)
         {
-            Jump();
+            FlipPlayer();
+            // Jump if 'W' or spacebar pressed
+            if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W))
+            {
+                Jump();
+            }
+            // Player left/right movement
+            rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
+
+            SetAnimatorParams();
         }
+       
 
-        // Player left/right movement
-        rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
 
-        SetAnimatorParams();
     }
 
     // Set Animator Parameters
