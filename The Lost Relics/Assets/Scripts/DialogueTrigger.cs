@@ -7,7 +7,7 @@ public class DialogueTrigger : MonoBehaviour
     public Dialogue dialogue;
     public bool playerIsClose;
     DialogueManager manager;
-    PlayerMovement movement;
+    public int startTalking = 0;
 
     /*public void TriggerDialogue()
 {
@@ -17,9 +17,17 @@ FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
     {
         if (Input.GetKeyDown(KeyCode.E) && playerIsClose)
         {
-
-            FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
-            movement.allowedToMoved = false;
+            if(startTalking == 0)
+            {
+                FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
+                startTalking = 1;
+            }
+           
+            //trying press e to continue talk
+            if (Input.GetKeyDown(KeyCode.E))
+            {
+                FindObjectOfType<DialogueManager>().DisplayNextSentence();
+            }
 
         }
        
@@ -31,13 +39,15 @@ FindObjectOfType<DialogueManager>().StartDialogue(dialogue);
         {
             playerIsClose = true;
           
+          
         }
     }
     private void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
         {          
-            playerIsClose = false;       
+            playerIsClose = false;
+            startTalking = 0;
 
         }
 

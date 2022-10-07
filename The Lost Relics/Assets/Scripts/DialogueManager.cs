@@ -35,8 +35,10 @@ public class DialogueManager : MonoBehaviour
         {
             sentences.Enqueue(sentence);
         }
+        //working next dialogue code
+        //DisplayNextSentence();
 
-        DisplayNextSentence();
+           //DisplayNextSentence();
     }
 
     public void DisplayNextSentence()
