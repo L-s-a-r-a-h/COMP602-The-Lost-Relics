@@ -27,6 +27,16 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
+        // freeze movement if talking with NPC
+        if (isTalking())
+        {
+            rb.velocity = new Vector2(0, 0);
+            anim.SetBool("run", false);
+            anim.SetBool("falling", false);
+            anim.SetBool("grounded", true);
+            return;
+        }
+
         FlipPlayer();
 
         // Jump if 'W' or spacebar pressed
@@ -39,6 +49,12 @@ public class PlayerMovement : MonoBehaviour
         rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
 
         SetAnimatorParams();
+    }
+
+    private bool isTalking()
+    {
+        DialogueManager dm = GameObject.Find("DialogueManager").GetComponent<DialogueManager>();
+        return dm.talking;
     }
 
     // Set Animator Parameters
