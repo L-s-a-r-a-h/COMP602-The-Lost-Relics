@@ -51,10 +51,25 @@ public class PlayerMovement : MonoBehaviour
         SetAnimatorParams();
     }
 
+    // Checks if the player is in an NPC dialogue (needs the HUDCanvas prefab).
     private bool isTalking()
     {
-        DialogueManager dm = GameObject.Find("DialogueManager").GetComponent<DialogueManager>();
-        return dm.talking;
+        bool talking = false;
+
+        try
+        {
+            // find if the user is in NPC dialogue
+            DialogueManager dm = GameObject.Find("DialogueManager").GetComponent<DialogueManager>();
+            talking = dm.talking;
+        }
+        catch (NullReferenceException)
+        {
+            // exit if the scene doesn't have the needed prefab.
+            Debug.LogError("Missing HUDCanvas prefab");
+            UnityEditor.EditorApplication.isPlaying = false;
+        }
+
+        return talking;
     }
 
     // Set Animator Parameters
