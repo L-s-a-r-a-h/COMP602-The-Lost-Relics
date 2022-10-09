@@ -11,11 +11,13 @@ public class PlayerMovement : MonoBehaviour
     private BoxCollider2D boxCollider2D;
     private float horizontalInput;
     private bool hurtAnimPlaying;
+    private bool deadAnimPlaying;
 
     private void Awake()
     {
         GetReferences();
         hurtAnimPlaying = false;
+        deadAnimPlaying = false;
     }
 
     private void GetReferences()
@@ -27,16 +29,26 @@ public class PlayerMovement : MonoBehaviour
 
     private void Update()
     {
-        // freeze movement if talking with NPC
-        if (isTalking())
+        // check if dead and play dead animation if player is dead
+        if (IsDead())
         {
-            rb.velocity = new Vector2(0, 0);
-            anim.SetBool("run", false);
-            anim.SetBool("falling", false);
-            anim.SetBool("grounded", true);
+            Freeze();
+            if (!deadAnimPlaying)
+            {
+                anim.SetTrigger("dead");
+                deadAnimPlaying = true;
+            }
             return;
         }
 
+        // freeze movement if talking with NPC
+        if (IsTalking())
+        {
+            Freeze();
+            return;
+        }
+
+        // flips player depending on direction of movement
         FlipPlayer();
 
         // Jump if 'W' or spacebar pressed
@@ -51,8 +63,21 @@ public class PlayerMovement : MonoBehaviour
         SetAnimatorParams();
     }
 
+    private bool IsDead()
+    {
+        return Health.Dead;
+    }
+
+    private void Freeze()
+    {
+        rb.velocity = new Vector2(0, 0);
+        anim.SetBool("run", false);
+        anim.SetBool("falling", false);
+        anim.SetBool("grounded", true);
+    }
+
     // Checks if the player is in an NPC dialogue (needs the HUDCanvas prefab).
-    private bool isTalking()
+    private bool IsTalking()
     {
         bool talking = false;
 
