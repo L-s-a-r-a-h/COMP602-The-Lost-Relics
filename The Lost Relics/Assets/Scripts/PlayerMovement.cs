@@ -91,7 +91,6 @@ public class PlayerMovement : MonoBehaviour
         {
             // exit if the scene doesn't have the needed prefab.
             Debug.LogError("Missing HUDCanvas prefab");
-            UnityEditor.EditorApplication.isPlaying = false;
         }
 
         return talking;
