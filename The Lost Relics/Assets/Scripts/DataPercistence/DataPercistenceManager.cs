@@ -39,6 +39,8 @@ public class DataPercistenceManager : MonoBehaviour
         Debug.Log(" game loaded");
     }
 
+
+
     public void newGame()
     {
         this.gameData = new GameData();
@@ -81,11 +83,17 @@ public class DataPercistenceManager : MonoBehaviour
         return new List<IDataPercistence>(dataPercistenceObjects);
     }
 
+    public string getSceneName()
+    {
+        return gameData.scene;
+    }
 
    /* private void OnApplicationQuit()
     {
         saveGame();
     }*/
+
+
 
     public void ButtonSave()
     {

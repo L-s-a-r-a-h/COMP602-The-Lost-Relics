@@ -84,15 +84,26 @@ public class MenuController : MonoBehaviour
 
     public void LoadGameDialog()
     {
-        if (PlayerPrefs.HasKey("SavedLevel"))
+       levelToLoad= DataPercistenceManager.instance.getSceneName();
+        Debug.Log(levelToLoad);
+        if (levelToLoad == "")
         {
-            levelToLoad = PlayerPrefs.GetString("SavedLevel");
+             noSavedGameDialog.SetActive(true);
+        }else{
             SceneManager.LoadScene(levelToLoad);
         }
-        else
-        {
-            noSavedGameDialog.SetActive(true);
-        }
+        
+
+        /* if (PlayerPrefs.HasKey("SavedLevel"))
+         {
+             levelToLoad = PlayerPrefs.GetString("SavedLevel");
+             SceneManager.LoadScene(levelToLoad);
+         }
+         else
+         {
+             noSavedGameDialog.SetActive(true);
+         }
+        */
     }
 
     public void ExitButton()
