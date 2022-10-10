@@ -14,7 +14,9 @@ public void ButtonLoad()
 
 public void ButtonSave()
 {
-    DataPercistenceManager.instance.saveGame();
+
+    DataPercistenceManager.instance.ButtonSave();
+
 }
 
 }

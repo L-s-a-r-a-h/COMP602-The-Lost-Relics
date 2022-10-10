@@ -11,6 +11,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] public Image image;
     private Queue<string> sentences;
     private IEnumerator coroutine;
+    public bool talking;
 
 
     // Start is called before the first frame update
@@ -22,6 +23,7 @@ public class DialogueManager : MonoBehaviour
 
     public void StartDialogue (Dialogue dialogue)
     {
+        talking = true;
         animator.SetBool("IsOpen", true);
         nameText.text = dialogue.name;
         image.sprite = dialogue.NPCimage;
@@ -33,8 +35,10 @@ public class DialogueManager : MonoBehaviour
         {
             sentences.Enqueue(sentence);
         }
+        //working next dialogue code
+        //DisplayNextSentence();
 
-        DisplayNextSentence();
+           //DisplayNextSentence();
     }
 
     public void DisplayNextSentence()
@@ -62,7 +66,7 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
-       
+        talking = false;
 
     }
 
