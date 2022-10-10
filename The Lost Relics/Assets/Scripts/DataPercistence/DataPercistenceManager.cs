@@ -67,28 +67,8 @@ public class DataPercistenceManager : MonoBehaviour
     }
     
 
-    public void loadScene()
-    {
-        SceneManager.LoadSceneAsync(gameData.scene);
 
-    }
-
-  /*  private void Start()
-    {
-        Debug.Log("loading saved");
-
-        this.dataPercistenceObjects = FindDataPercistenceObjects();
-
-        Debug.Log("start");
-        loadData();
-        loadGame();
-        //loadGame();
-        Debug.Log("start game loaded");
-    } */
-
-    
-
-    public void newGame()
+    private void newGame()
     {
         this.gameData = new GameData();
     }
@@ -103,7 +83,7 @@ public class DataPercistenceManager : MonoBehaviour
 
     }
 
-    public void loadData()
+    private void loadData()
     {
         this.gameData = dataHandler.Load();
         if (this.gameData == null)
@@ -114,7 +94,8 @@ public class DataPercistenceManager : MonoBehaviour
     }
     public void loadGame()
     {
-
+        this.loadData();
+        /*
         this.gameData = dataHandler.Load();
 
         if (this.gameData == null)
@@ -122,11 +103,11 @@ public class DataPercistenceManager : MonoBehaviour
             Debug.Log("no game data found. starting new game");
             return;
         } 
+        */
         foreach (IDataPercistence dataPercistenceObject in dataPercistenceObjects)
         {
             dataPercistenceObject.LoadData(gameData);
         }
-        
 
         Debug.Log(" hi hi ");
     }
@@ -146,21 +127,15 @@ public class DataPercistenceManager : MonoBehaviour
         return gameData.scene;
     }
 
-   /* private void OnApplicationQuit()
-    {
-        saveGame();
-    }*/
-
-
-
     public void ButtonSave()
     {
+
         saveGame();
     }
 
+
     public void ButtonLoad()
     {
-        loadData();
         loadGame();
     }
 
