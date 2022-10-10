@@ -11,7 +11,6 @@ public class GameData
     public float current_health;
     public int relics;
     public Vector3 playerPosition;
-    public Dictionary <string,bool> relicsCollected;
     public string scene;
 
 
@@ -24,7 +23,7 @@ public class GameData
         playerPosition = Vector3.zero;
         this.coins_balance = 0;
         this.current_health = 5;
-        relicsCollected = new Dictionary<string, bool>();
+        this.relics = 0;
         scene = "";
 
     }

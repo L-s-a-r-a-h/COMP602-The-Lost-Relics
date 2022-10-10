@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using System.Linq;
+using UnityEngine.SceneManagement;
 
 public class DataPercistenceManager : MonoBehaviour
 {
@@ -21,27 +22,53 @@ public class DataPercistenceManager : MonoBehaviour
 
     private void Awake()
     {
-        if (instance != null)
+        Debug.Log("awake");
+        if (instance != null && instance != this)
         {
-            Debug.LogError("error: more than one DataPercistenceManager in Scene");
+           
+            Debug.Log("error: more than one DataPercistenceManager in Scene");
+            Destroy(gameObject);
+            Debug.Log("1");
+            return;
         }
-        instance = this;
+    
+            Debug.Log("2");
+            instance = this;
+            DontDestroyOnLoad(this.gameObject);
+            Debug.Log("3");
+
+       
+
+        this.dataHandler = new FileDataHandler(Application.persistentDataPath, fileName);
 
     }
-
-    private void Start()
+    
+    void OnEnable()
     {
-
-        this.dataHandler = new FileDataHandler(Application.persistentDataPath,fileName);
+        Debug.Log("OnEnable called");
+        UnityEngine.SceneManagement.SceneManager.sceneLoaded += OnSceneLoaded;
+        Debug.Log("scenemanager.sceneloaded called");
+    }
+     void OnSceneLoaded(Scene scene, LoadSceneMode mode)
+    {
         this.dataPercistenceObjects = FindDataPercistenceObjects();
 
+        Debug.Log("start");
         loadGame();
-        Debug.Log(" game loaded");
+        Debug.Log("onscene loaded");
+   
     }
 
+  
+    void OnDisable()
+    {
+        Debug.Log("OnDisable");
+        SceneManager.sceneLoaded -= OnSceneLoaded;
+    }
+    
 
 
-    public void newGame()
+    private void newGame()
     {
         this.gameData = new GameData();
     }
@@ -56,20 +83,32 @@ public class DataPercistenceManager : MonoBehaviour
 
     }
 
+    private void loadData()
+    {
+        this.gameData = dataHandler.Load();
+        if (this.gameData == null)
+        {
+            Debug.Log("no game data found. starting new game");
+            return;
+        }
+    }
     public void loadGame()
     {
-
+        this.loadData();
+        /*
         this.gameData = dataHandler.Load();
 
         if (this.gameData == null)
         {
             Debug.Log("no game data found. starting new game");
-            newGame();
-        }
+            return;
+        } 
+        */
         foreach (IDataPercistence dataPercistenceObject in dataPercistenceObjects)
         {
             dataPercistenceObject.LoadData(gameData);
         }
+
         Debug.Log(" hi hi ");
     }
 
@@ -88,16 +127,16 @@ public class DataPercistenceManager : MonoBehaviour
         return gameData.scene;
     }
 
-   /* private void OnApplicationQuit()
-    {
-        saveGame();
-    }*/
-
-
-
     public void ButtonSave()
     {
+
         saveGame();
+    }
+
+
+    public void ButtonLoad()
+    {
+        loadGame();
     }
 
 
