@@ -1065,7 +1065,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7107073573135162356, guid: 998416a102e165d45af6d1d6303f7124, type: 3}
       propertyPath: m_fontColor32.rgba
-      value: 33554431
+      value: 16777215
       objectReference: {fileID: 0}
     - target: {fileID: 8104754885196923931, guid: 998416a102e165d45af6d1d6303f7124, type: 3}
       propertyPath: m_Color.a
@@ -1073,11 +1073,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8104754885196923931, guid: 998416a102e165d45af6d1d6303f7124, type: 3}
       propertyPath: m_Color.b
-      value: 0.23584908
+      value: 0.051041294
       objectReference: {fileID: 0}
     - target: {fileID: 8104754885196923931, guid: 998416a102e165d45af6d1d6303f7124, type: 3}
       propertyPath: m_Color.g
-      value: 0.23584908
+      value: 0.051041294
       objectReference: {fileID: 0}
     - target: {fileID: 8104754885196923931, guid: 998416a102e165d45af6d1d6303f7124, type: 3}
       propertyPath: m_Color.r
@@ -1278,6 +1278,25 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1049023302621363165, guid: c4728654af6c1b84fb5102e3f29ffb8f, type: 3}
   m_PrefabInstance: {fileID: 1316147116}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1246795612 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8623464450278232151, guid: 998416a102e165d45af6d1d6303f7124, type: 3}
+  m_PrefabInstance: {fileID: 991696110}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1246795617
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1246795612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 239f0f3f09bf1ba40ab5a5d124f18fe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  deathScreen: {fileID: 1791420469}
+  player: {fileID: 246555518}
 --- !u!1001 &1316147116
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1381,7 +1400,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7784091, y: 1}
+    m_SensorSize: {x: 1.777305, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
@@ -7905,20 +7924,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &1791420475
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1791420469}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 239f0f3f09bf1ba40ab5a5d124f18fe1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  deathScreen: {fileID: 1791420469}
-  player: {fileID: 246555518}
 --- !u!1 &1805948705
 GameObject:
   m_ObjectHideFlags: 0
