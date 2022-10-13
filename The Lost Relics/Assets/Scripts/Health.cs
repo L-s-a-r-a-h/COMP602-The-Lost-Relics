@@ -31,6 +31,10 @@ public class Health : MonoBehaviour
             // play dead animation, go to dead screen etc.
             Dead = true;
             Debug.Log("Dead");
+
+
+            // load from save point
+            DataPercistenceManager.instance.loadGame();
         }
     }
 
