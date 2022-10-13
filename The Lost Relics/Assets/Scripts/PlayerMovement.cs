@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
@@ -13,6 +14,7 @@ public class PlayerMovement : MonoBehaviour
     private bool hurtAnimPlaying;
     private bool deadAnimPlaying;
     public bool DeadAnimDone { private set; get; }
+    private bool knockedBack;
 
 
     private void Awake()
@@ -21,6 +23,7 @@ public class PlayerMovement : MonoBehaviour
         hurtAnimPlaying = false;
         deadAnimPlaying = false;
         DeadAnimDone = false;
+        knockedBack = false;
     }
 
     private void GetReferences()
@@ -52,7 +55,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
         // flips player depending on direction of movement
-        FlipPlayer();
+        HorizontalMovement();
 
         // Jump if 'W' or spacebar pressed
         if (Input.GetKey(KeyCode.Space) || Input.GetKey(KeyCode.W))
@@ -60,8 +63,7 @@ public class PlayerMovement : MonoBehaviour
             Jump();
         }
 
-        // Player left/right movement
-        rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
+        // Player left/right movement   
 
         SetAnimatorParams();
     }
@@ -115,10 +117,20 @@ public class PlayerMovement : MonoBehaviour
         {
             anim.SetTrigger("hurt");
             hurtAnimPlaying = true;
-            // knockback
-            rb.velocity = new Vector2(0, 0);
-            rb.AddForce(new Vector2(-transform.localScale.x * 7.5f, 7.5f), ForceMode2D.Impulse);
+            StartCoroutine(Knockback());
         }
+    }
+
+    private IEnumerator Knockback()
+    {
+        knockedBack = true;
+
+        rb.velocity = new Vector2(0, 0);
+        rb.AddForce(new Vector2(-transform.localScale.x * 7.5f, 7.5f), ForceMode2D.Impulse);
+
+        yield return new WaitForSeconds(1);
+
+        knockedBack = false;
     }
 
     // used in an animation event
@@ -145,8 +157,7 @@ public class PlayerMovement : MonoBehaviour
         return false;
     }
 
-    // Flip player depending on direction of movement
-    private void FlipPlayer()
+    private void HorizontalMovement()
     {
         horizontalInput = Input.GetAxis("Horizontal");
 
@@ -157,6 +168,20 @@ public class PlayerMovement : MonoBehaviour
         else if (horizontalInput < -0.01f)
         {
             transform.localScale = new Vector3(-1, 1, 1);
+        }
+
+        // move
+        if (knockedBack)
+        {
+            if ((horizontalInput > 0.01f && rb.velocity.x <= speed) || 
+                (horizontalInput < -0.01f && rb.velocity.x >= -speed))
+            {
+                rb.velocity += new Vector2(horizontalInput, 0);
+            }        
+        }
+        else
+        {
+            rb.velocity = new Vector2(horizontalInput * speed, rb.velocity.y);
         }
     }
 
