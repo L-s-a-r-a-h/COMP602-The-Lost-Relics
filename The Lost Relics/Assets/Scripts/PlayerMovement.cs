@@ -12,12 +12,15 @@ public class PlayerMovement : MonoBehaviour
     private float horizontalInput;
     private bool hurtAnimPlaying;
     private bool deadAnimPlaying;
+    public bool DeadAnimDone { private set; get; }
+
 
     private void Awake()
     {
         GetReferences();
         hurtAnimPlaying = false;
         deadAnimPlaying = false;
+        DeadAnimDone = false;
     }
 
     private void GetReferences()
@@ -33,7 +36,7 @@ public class PlayerMovement : MonoBehaviour
         if (IsDead())
         {
             Freeze();
-            if (!deadAnimPlaying)
+            if (!deadAnimPlaying && !DeadAnimDone)
             {
                 anim.SetTrigger("dead");
                 deadAnimPlaying = true;
@@ -118,10 +121,18 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
+    // used in an animation event
     public void HurtAnimationDone()
     {
         Health.Hurt = false;
         hurtAnimPlaying = false;
+    }
+
+    // used in an animation event
+    public void DeathAnimationDone()
+    {
+        deadAnimPlaying = false;
+        DeadAnimDone = true;
     }
 
     private bool IsFalling()
