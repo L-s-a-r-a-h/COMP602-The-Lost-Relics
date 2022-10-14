@@ -33,5 +33,9 @@ public class Projectile : MonoBehaviour
         {
             Destroy(GetComponent<Collider2D>().gameObject);
         }
+        if (collision.tag == "Ground")
+        {
+            Destroy(GetComponent<Collider2D>().gameObject);
+        }
     }
 }
