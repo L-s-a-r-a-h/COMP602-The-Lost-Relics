@@ -33,8 +33,7 @@ public class Health : MonoBehaviour
             Debug.Log("Dead");
 
 
-            // load from save point
-            DataPercistenceManager.instance.loadGame();
+    
         }
     }
 
