@@ -136,7 +136,15 @@ public class DataPercistenceManager : MonoBehaviour
 
     public void ButtonLoad()
     {
+     
         loadGame();
+    }
+
+
+    public void ButtonLoad2()
+    {
+        SceneManager.LoadScene(gameData.scene);
+       // loadGame();
     }
 
 
