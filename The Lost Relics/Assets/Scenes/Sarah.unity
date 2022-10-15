@@ -360,7 +360,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &11696263
 RectTransform:
   m_ObjectHideFlags: 0
@@ -35412,10 +35412,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1925662896}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be9a1d606c02745cebfba1313c930892, type: 3}
+  m_Script: {fileID: 11500000, guid: 7ec8103b9fa44f84fa2ad046f7254dd4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  returnUI: {fileID: 11696262}
+  returnPanel: {fileID: 11696262}
   nextSceneName: Zakki
   sceneStartPosition: {x: 0, y: 0, z: 0}
   player: {fileID: 371488883}
@@ -35719,6 +35719,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 783389204499632960, guid: 998416a102e165d45af6d1d6303f7124, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1375284125718390506, guid: 998416a102e165d45af6d1d6303f7124, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
       value: 1
@@ -35766,6 +35770,18 @@ PrefabInstance:
     - target: {fileID: 3679428479683533703, guid: 998416a102e165d45af6d1d6303f7124, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
       value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 3796498351584229174, guid: 998416a102e165d45af6d1d6303f7124, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4694948907204406749, guid: 998416a102e165d45af6d1d6303f7124, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6885577342833912244, guid: 998416a102e165d45af6d1d6303f7124, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8623464450278232139, guid: 998416a102e165d45af6d1d6303f7124, type: 3}
       propertyPath: m_Pivot.x

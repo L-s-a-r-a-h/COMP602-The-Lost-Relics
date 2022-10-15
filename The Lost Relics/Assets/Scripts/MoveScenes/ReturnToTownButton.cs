@@ -7,12 +7,12 @@ public class ReturnToTownButton : MonoBehaviour
 {
     public void ReturnToTownYes()
     {
-        ReturnToTown.toTown.ReturnToTownYes();
+        returnManager.instance.ReturnToTownYes();
 
     }
 
     public void ReturnToTownNo()
     {
-        ReturnToTown.toTown.ReturnToTownNo();
+        returnManager.instance.ReturnToTownNo();
     }
 }
