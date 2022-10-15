@@ -19,6 +19,6 @@ public class CurrentCoins : MonoBehaviour
     // keeps track of the amount of coins collected and updates the hud.
     void Update()
     {
-                coinsText.text = "Coins: " + numCoins;
+                coinsText.text = " : " + numCoins;
     }
 }

@@ -23,12 +23,12 @@ public class ReturnToTown : MonoBehaviour
 
     }
 
-    public void ReturnToTownYes()
+   /* public void ReturnToTownYes()
     {
         player.transform.position = sceneStartPosition;
         DataPercistenceManager.instance.saveGame();
         SceneManager.LoadScene(nextSceneName);
-    }
+    }*/
 
     public void ReturnToTownNo()
     {
