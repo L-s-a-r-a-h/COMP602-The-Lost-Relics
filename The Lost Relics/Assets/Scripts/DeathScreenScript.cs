@@ -2,12 +2,14 @@ using UnityEngine;
 
 public class DeathScreenScript : MonoBehaviour
 {
-    [SerializeField] private GameObject deathScreen;
-    [SerializeField] public GameObject player;
+    private GameObject deathScreen;
+    private GameObject player;
     private PlayerMovement pm;
 
     public void Awake()
     {
+        this.deathScreen = GameObject.Find("DeathScreen");
+        this.player = GameObject.Find("Player");
         this.deathScreen.SetActive(false);
         this.pm = player.GetComponent<PlayerMovement>();
     }
