@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class ReturnToTownButton : MonoBehaviour
+/*public class ReturnToTownButton : MonoBehaviour
 {
     public void ReturnToTownYes()
     {
@@ -15,4 +15,4 @@ public class ReturnToTownButton : MonoBehaviour
     {
         // ReturnToTown.toTown.ReturnToTownNo();
     }
-}
+}*/
