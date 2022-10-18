@@ -89,7 +89,8 @@ public class DataPercistenceManager : MonoBehaviour
         if (this.gameData == null)
         {
             Debug.Log("no game data found. starting new game");
-            return;
+            newGame();
+         //   return;
         }
     }
     public void loadGame()
