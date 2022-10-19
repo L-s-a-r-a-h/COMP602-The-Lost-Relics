@@ -10,7 +10,6 @@ public class DeathZone : MonoBehaviour
     {
         if (collision.tag == "Player")
         {
-
             Health.DecreaseHealth(Health.CurrentHealth);
         }
     }

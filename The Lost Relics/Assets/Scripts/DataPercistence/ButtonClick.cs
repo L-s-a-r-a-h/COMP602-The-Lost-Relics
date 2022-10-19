@@ -1,18 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ButtonClick : MonoBehaviour
 {
 
 public void ButtonLoad()
 {
-    DataPercistenceManager.instance.loadGame();
+        Debug.Log("button load");
+       // DataPercistenceManager.instance.loadScene();
+        DataPercistenceManager.instance.ButtonLoad();
 }
 
 public void ButtonSave()
 {
-    DataPercistenceManager.instance.saveGame();
+
+    DataPercistenceManager.instance.ButtonSave();
+
 }
+    public void ButtonLoad2()
+    {
+        Debug.Log("button load");
+        DataPercistenceManager.instance.ButtonLoad2();
+
+
+    }
 
 }

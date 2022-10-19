@@ -5,12 +5,14 @@ public class Health : MonoBehaviour
     public static float MaxHealth;
     public static float CurrentHealth;
     public static bool Hurt;
+    public static bool Dead;
 
     private void Awake() 
     {
         MaxHealth = 5;
         CurrentHealth = MaxHealth;
         Hurt = false;
+        Dead = false;
     }
 
     public static void DecreaseHealth(float health)
@@ -27,7 +29,11 @@ public class Health : MonoBehaviour
         else
         {
             // play dead animation, go to dead screen etc.
+            Dead = true;
             Debug.Log("Dead");
+
+
+    
         }
     }
 
