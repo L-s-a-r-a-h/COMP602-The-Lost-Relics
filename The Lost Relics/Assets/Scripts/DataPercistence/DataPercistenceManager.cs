@@ -49,6 +49,7 @@ public class DataPercistenceManager : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.sceneLoaded += OnSceneLoaded;
         Debug.Log("scenemanager.sceneloaded called");
     }
+
      void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         this.dataPercistenceObjects = FindDataPercistenceObjects();
@@ -140,6 +141,14 @@ public class DataPercistenceManager : MonoBehaviour
      
         loadGame();
     }
+
+    public void nextScene(string name)
+    {
+
+        gameData.scene = name;
+        saveGame();
+    }
+
 
 
     public void ButtonLoad2()

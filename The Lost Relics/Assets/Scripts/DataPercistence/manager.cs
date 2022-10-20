@@ -16,6 +16,8 @@ public class manager : MonoBehaviour, IDataPercistence
         CurrentCoins.numCoins = data.coins_balance;
         Health.CurrentHealth = data.current_health;
         RelicsCollected.numRelics = data.relics;
+        
+        
     }
 
     public void SaveData(ref GameData data)
@@ -26,7 +28,7 @@ public class manager : MonoBehaviour, IDataPercistence
         data.coins_balance = CurrentCoins.numCoins;
         data.relics = RelicsCollected.numRelics;
         data.current_health = Health.CurrentHealth;
-        data.scene = SceneManager.GetActiveScene().name;
+       // data.scene = SceneManager.GetActiveScene().name;
 
 }
 
