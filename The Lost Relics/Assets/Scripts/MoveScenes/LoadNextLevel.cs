@@ -18,8 +18,6 @@ public class LoadNextLevel : MonoBehaviour
         {
             //load the player at the start position of next scene
             player.transform.position = sceneStartPosition;
-            
-           // DataPercistenceManager.instance.saveGame();
             DataPercistenceManager.instance.nextScene(nextSceneName);
             SceneManager.LoadScene(nextSceneName);
   

@@ -146,7 +146,9 @@ public class DataPercistenceManager : MonoBehaviour
     {
 
         gameData.scene = name;
+        Debug.Log(name);
         saveGame();
+        Debug.Log(gameData.scene);
     }
 
 

@@ -3,16 +3,16 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-/*public class ReturnToTownButton : MonoBehaviour
+public class ReturnToTownButton : MonoBehaviour
 {
     public void ReturnToTownYes()
     {
-        // ReturnToTown.toTown.ReturnToTownYes();
+        returnManager.instance.ReturnToTownYes();
 
     }
 
     public void ReturnToTownNo()
     {
-        // ReturnToTown.toTown.ReturnToTownNo();
+        returnManager.instance.ReturnToTownNo();
     }
-}*/
+}

@@ -41,12 +41,12 @@ public class returnManager : MonoBehaviour
         returnPanel.SetActive(true);
     }
 
-   /* public void ReturnToTownYes()
+    public void ReturnToTownYes()
     {
         player.transform.position = sceneStartPosition;
-        DataPercistenceManager.instance.saveGame();
+        DataPercistenceManager.instance.nextScene(nextSceneName);
         SceneManager.LoadScene(nextSceneName);
-    }*/
+    }
 
     public void ReturnToTownNo()
     {
