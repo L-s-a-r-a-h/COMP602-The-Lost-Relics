@@ -11,9 +11,9 @@ GameObject:
   - component: {fileID: 5501215039707406790}
   - component: {fileID: 1404650829807806830}
   - component: {fileID: 3500414494636714224}
+  - component: {fileID: 6624967085008265573}
   - component: {fileID: 6080584069491513008}
   - component: {fileID: 384114622035185798}
-  - component: {fileID: 7519006050610394070}
   m_Layer: 0
   m_Name: BigCoin
   m_TagString: Coin
@@ -104,6 +104,20 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0.047}
   serializedVersion: 2
   m_Radius: 0.04723368
+--- !u!114 &6624967085008265573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5522572316997524053}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 53e5314fb0ebd984181e12af69c68265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectileSpeed: 5
+  value: 10
 --- !u!50 &6080584069491513008
 Rigidbody2D:
   serializedVersion: 4
@@ -151,18 +165,3 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.052745588, y: 0.07134659}
   m_EdgeRadius: 0
---- !u!114 &7519006050610394070
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5522572316997524053}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a0e81dcbb76e63947a95b655817526d1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  value: 10
-  projectileSpeed: 5
-  id: 
