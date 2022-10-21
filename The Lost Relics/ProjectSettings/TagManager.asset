@@ -8,6 +8,7 @@ TagManager:
   - Hazard
   - Item
   - Ground
+  - Event
   layers:
   - Default
   - TransparentFX
