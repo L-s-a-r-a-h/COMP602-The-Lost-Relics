@@ -2,6 +2,7 @@ fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: 11a12d4c2579dbd4a910cac372567283
 =======
 =======
@@ -22,6 +23,13 @@ guid: 2ac0bdb1f72273446853e8d81225c348
 =======
 guid: 2ac0bdb1f72273446853e8d81225c348
 >>>>>>> parent of a6f5f4b (test2)
+=======
+<<<<<<<< HEAD:The Lost Relics/Assets/Sprites/Character/Dragon Warrior PNG/crouch_ATK_01.png.meta
+guid: cfb0994800bda9d46ac37ca2d06f5c51
+========
+guid: 2ac0bdb1f72273446853e8d81225c348
+>>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki):The Lost Relics/Assets/Sprites/Character/Dragon Warrior PNG/attack_02.png.meta
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

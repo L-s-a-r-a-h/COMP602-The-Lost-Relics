@@ -2,6 +2,7 @@ fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: d068d6768191fc34599e929f893da341
 =======
 <<<<<<<< HEAD:The Lost Relics/Assets/Imported Assets.meta
@@ -31,6 +32,17 @@ guid: 1cc9b1fa2e13a4582802bb21167d4555
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
+=======
+<<<<<<<< HEAD:The Lost Relics/Assets/Lively_NPCs_v3.0/individual sprites/elementals.meta
+guid: 080480210f236eb4d8bae4f6b33cdb46
+========
+guid: 1cc9b1fa2e13a4582802bb21167d4555
+>>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki):The Lost Relics/Assets/Tests.meta
+folderAsset: yes
+timeCreated: 1498329188
+licenseType: Store
+DefaultImporter:
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
   userData: 
   assetBundleName: 
   assetBundleVariant: 

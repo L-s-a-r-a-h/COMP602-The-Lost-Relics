@@ -2,6 +2,7 @@ fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: c653c501c94f8594db09e5a1eb1e1633
 =======
 <<<<<<<< HEAD:The Lost Relics/Assets/Imported Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Background Grid.png.meta
@@ -20,6 +21,13 @@ guid: 2d81263c15e0870429e027cfa336f392
 =======
 guid: 2d81263c15e0870429e027cfa336f392
 >>>>>>> parent of a6f5f4b (test2)
+=======
+<<<<<<<< HEAD:The Lost Relics/Assets/Sprites/Character/Dragon Warrior PNG/crouch_02.png.meta
+guid: 4712c1ad024e03b4c97cf0683831cff8
+========
+guid: 2d81263c15e0870429e027cfa336f392
+>>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki):The Lost Relics/Assets/Sprites/Character/Dragon Warrior PNG/attack_01.png.meta
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -66,6 +74,7 @@ TextureImporter:
   spriteExtrude: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   spriteMeshType: 1
 =======
   spriteMeshType: 0
@@ -73,6 +82,9 @@ TextureImporter:
 =======
   spriteMeshType: 1
 >>>>>>> parent of 18e499b (test)
+=======
+  spriteMeshType: 1
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -98,6 +110,7 @@ TextureImporter:
     resizeAlgorithm: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     textureFormat: -1
 =======
 <<<<<<<< HEAD:The Lost Relics/Assets/Imported Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Background Grid.png.meta
@@ -109,6 +122,9 @@ TextureImporter:
 =======
     textureFormat: -1
 >>>>>>> parent of 18e499b (test)
+=======
+    textureFormat: -1
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -122,6 +138,7 @@ TextureImporter:
     resizeAlgorithm: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     textureFormat: -1
 =======
     textureFormat: 3
@@ -129,14 +146,20 @@ TextureImporter:
 =======
     textureFormat: -1
 >>>>>>> parent of 18e499b (test)
+=======
+    textureFormat: -1
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> parent of 18e499b (test)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 1
@@ -145,6 +168,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
+<<<<<<< HEAD
 <<<<<<< HEAD
 =======
     overridden: 1
@@ -162,6 +186,8 @@ TextureImporter:
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of 18e499b (test)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
     textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
@@ -201,6 +227,7 @@ TextureImporter:
     bones: []
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     spriteID: 5e97eb03825dee720800000000000000
 =======
     spriteID: a75cd6e715121e74b868fc3cfa0b7b8d
@@ -208,6 +235,9 @@ TextureImporter:
 =======
     spriteID: 5e97eb03825dee720800000000000000
 >>>>>>> parent of 18e499b (test)
+=======
+    spriteID: 5e97eb03825dee720800000000000000
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
     internalID: 0
     vertices: []
     indices: 

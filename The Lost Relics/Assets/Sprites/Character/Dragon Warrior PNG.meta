@@ -2,6 +2,7 @@ fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: f14c3946e74588747be06c262613343c
 =======
 <<<<<<<< HEAD:The Lost Relics/Assets/Scripts/Health Potion.meta
@@ -21,6 +22,14 @@ guid: 080480210f236eb4d8bae4f6b33cdb46
 guid: 080480210f236eb4d8bae4f6b33cdb46
 >>>>>>> parent of a6f5f4b (test2)
 folderAsset: yes
+=======
+<<<<<<<< HEAD:The Lost Relics/Assets/Sprites/Character/Dragon Warrior EPS.eps.meta
+guid: 5f7e7274ad4cec34b9c59ddc293b4c0f
+========
+guid: 080480210f236eb4d8bae4f6b33cdb46
+folderAsset: yes
+>>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki):The Lost Relics/Assets/Sprites/Character/Dragon Warrior PNG.meta
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 timeCreated: 1498329188
 licenseType: Store
 DefaultImporter:

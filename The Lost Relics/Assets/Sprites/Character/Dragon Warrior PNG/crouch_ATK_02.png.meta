@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:The Lost Relics/Assets/Sprites/Character/Dragon Warrior PNG/crouch_ATK_02.png.meta
 guid: 629e63a13f5fdc0479184fc58e22bb9b
+========
+guid: 080098adc5ac9cc428f1a442160eef31
+>>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki):The Lost Relics/Assets/Sprites/Character/Dragon Warrior PNG/attack_03.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:The Lost Relics/Assets/Imported Assets/Lively_NPCs_v3.0.meta
 <<<<<<< HEAD
 guid: 6f8c1c6799d8bef46b188c73e806c144
@@ -24,6 +25,17 @@ guid: 61dc2e97fc9665b4cb2576a59d455aea
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
+=======
+<<<<<<<< HEAD:The Lost Relics/Assets/Sprites/Character/Demo.unity.meta
+guid: fee6a44f9eb8d2c4bbee134c4da1f4d5
+timeCreated: 1504636606
+licenseType: Store
+========
+guid: 61dc2e97fc9665b4cb2576a59d455aea
+folderAsset: yes
+>>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki):The Lost Relics/Assets/Sprites/Character.meta
+DefaultImporter:
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
   userData: 
   assetBundleName: 
   assetBundleVariant: 
