@@ -9,14 +9,15 @@ public class ShopManagerScript : MonoBehaviour
 {
 
     public int[,] shopItems = new int[5, 5];
-    public float coins;
+    //private CurrentCoins CurrentCoins = CurrentCoins;
     //public Text CoinsTXT;
+    //public GameObject coinsScript;
     [SerializeField] public TextMeshProUGUI CoinsTXT;
 
 
     void Start()
     {
-        CoinsTXT.text = "Coins:" + coins.ToString();
+        CoinsTXT.text = "Coins:" + CurrentCoins.numCoins.ToString();
 
         //ID's
         shopItems[1, 1] = 1;
@@ -42,12 +43,14 @@ public class ShopManagerScript : MonoBehaviour
     public void Buy()
     {
         GameObject ButtonRef = GameObject.FindGameObjectWithTag("Event").GetComponent<EventSystem>().currentSelectedGameObject;
+      
 
-        if (coins >= shopItems[2, ButtonRef.GetComponent<ButtonInfo>().ItemID])
+        
+        if (CurrentCoins.numCoins >= shopItems[2, ButtonRef.GetComponent<ButtonInfo>().ItemID])
         {
-            coins -= shopItems[2, ButtonRef.GetComponent<ButtonInfo>().ItemID];
+            CurrentCoins.numCoins -= shopItems[2, ButtonRef.GetComponent<ButtonInfo>().ItemID];
             shopItems[3, ButtonRef.GetComponent<ButtonInfo>().ItemID]++;
-            CoinsTXT.text = "Coins:" + coins.ToString();
+            CoinsTXT.text = "Coins:" + CurrentCoins.numCoins.ToString();
             ButtonRef.GetComponent<ButtonInfo>().QuantityTxt.text = shopItems[3, ButtonRef.GetComponent<ButtonInfo>().ItemID].ToString();
 
         }
