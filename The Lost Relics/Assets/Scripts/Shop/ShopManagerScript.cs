@@ -9,9 +9,6 @@ public class ShopManagerScript : MonoBehaviour
 {
 
     public int[,] shopItems = new int[5, 5];
-    //private CurrentCoins CurrentCoins = CurrentCoins;
-    //public Text CoinsTXT;
-    //public GameObject coinsScript;
     [SerializeField] public TextMeshProUGUI CoinsTXT;
 
 
@@ -50,9 +47,13 @@ public class ShopManagerScript : MonoBehaviour
         {
             CurrentCoins.numCoins -= shopItems[2, ButtonRef.GetComponent<ButtonInfo>().ItemID];
             shopItems[3, ButtonRef.GetComponent<ButtonInfo>().ItemID]++;
-            CoinsTXT.text = "Coins:" + CurrentCoins.numCoins.ToString();
+            CoinsTXT.text = "Coins" + CurrentCoins.numCoins.ToString();
             ButtonRef.GetComponent<ButtonInfo>().QuantityTxt.text = shopItems[3, ButtonRef.GetComponent<ButtonInfo>().ItemID].ToString();
 
+            if (shopItems[1, ButtonRef.GetComponent<ButtonInfo>().ItemID] == 3)
+            {
+                Keys.numKeys++;
+            }
         }
 
 
