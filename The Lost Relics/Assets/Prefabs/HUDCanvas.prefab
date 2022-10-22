@@ -200,6 +200,7 @@ MonoBehaviour:
       m_Calls: []
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -344,6 +345,8 @@ MonoBehaviour:
 >>>>>>> parent of 65d6003 (Buying from shop works!)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of c8a48db (Added new shop system and fixed shop errors)
 --- !u!1 &1633987232134337349
 GameObject:
   m_ObjectHideFlags: 0
@@ -425,6 +428,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1511ccae7919cfc46b603b9b337fdc94, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 =======
@@ -556,6 +560,8 @@ MonoBehaviour:
 >>>>>>> parent of 65d6003 (Buying from shop works!)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of c8a48db (Added new shop system and fixed shop errors)
 --- !u!1 &2139910212603499307
 GameObject:
   m_ObjectHideFlags: 0
@@ -1237,6 +1243,7 @@ MonoBehaviour:
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1 &3435285894638304073
 GameObject:
@@ -1374,6 +1381,8 @@ MonoBehaviour:
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of c8a48db (Added new shop system and fixed shop errors)
 --- !u!1 &3494259278738604776
 GameObject:
   m_ObjectHideFlags: 0
@@ -1959,6 +1968,7 @@ MonoBehaviour:
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1 &4398573985968549894
 GameObject:
@@ -2104,6 +2114,8 @@ MonoBehaviour:
   QuantityTxt: {fileID: 0}
   ShopManager: {fileID: 1677251244987315788}
 >>>>>>> parent of 65d6003 (Buying from shop works!)
+=======
+>>>>>>> parent of c8a48db (Added new shop system and fixed shop errors)
 --- !u!1 &4694948906659779252
 GameObject:
   m_ObjectHideFlags: 0
@@ -2144,10 +2156,13 @@ RectTransform:
   - {fileID: 8710448011364699245}
   - {fileID: 7748971292454117538}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - {fileID: 4373363420562983635}
   - {fileID: 8246309258550365974}
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of c8a48db (Added new shop system and fixed shop errors)
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2334,6 +2349,7 @@ Animator:
   m_KeepAnimatorControllerStateOnDisable: 0
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -2475,6 +2491,8 @@ MonoBehaviour:
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 >>>>>>> parent of 65d6003 (Buying from shop works!)
+=======
+>>>>>>> parent of c8a48db (Added new shop system and fixed shop errors)
 --- !u!1 &5533207084539983123
 GameObject:
   m_ObjectHideFlags: 0
@@ -2674,6 +2692,7 @@ MonoBehaviour:
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -2792,6 +2811,8 @@ Transform:
 >>>>>>> parent of 65d6003 (Buying from shop works!)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of c8a48db (Added new shop system and fixed shop errors)
 --- !u!1 &6885577342833912244
 GameObject:
   m_ObjectHideFlags: 0
@@ -3244,7 +3265,7 @@ GameObject:
   - component: {fileID: 8412925865119272859}
   - component: {fileID: 5602483855941708313}
   m_Layer: 5
-  m_Name: CoinTxt
+  m_Name: Text (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3445,6 +3466,7 @@ MonoBehaviour:
   m_PixelsPerUnitMultiplier: 1
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -3528,3 +3550,5 @@ MonoBehaviour:
 >>>>>>> parent of 65d6003 (Buying from shop works!)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of c8a48db (Added new shop system and fixed shop errors)
