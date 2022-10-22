@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:The Lost Relics/Assets/Scripts/MoveScenes/ReturnToTown.cs.meta
 guid: 3430a428b606bba478f954194818c628
 ========
@@ -12,6 +13,9 @@ guid: 50ca82c59de5c4c57a62759cb2be72e8
 guid: be9a1d606c02745cebfba1313c930892
 >>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki):The Lost Relics/Assets/Scripts/MoveScenes/ReturnToTown.cs.meta
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+guid: be9a1d606c02745cebfba1313c930892
+>>>>>>> parent of 18e499b (test)
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

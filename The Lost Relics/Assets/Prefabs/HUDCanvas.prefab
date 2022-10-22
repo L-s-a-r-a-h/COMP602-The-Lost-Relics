@@ -201,6 +201,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -347,6 +348,8 @@ MonoBehaviour:
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of c8a48db (Added new shop system and fixed shop errors)
+=======
+>>>>>>> parent of 18e499b (test)
 --- !u!1 &1633987232134337349
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,10 +434,14 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &1666431502256896113
+=======
+--- !u!1 &2139910212603499307
+>>>>>>> parent of 18e499b (test)
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -442,28 +449,45 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
+<<<<<<< HEAD
   - component: {fileID: 365826558344290750}
   - component: {fileID: 3499252194696537771}
   - component: {fileID: 7165408775092348683}
   m_Layer: 0
   m_Name: Icon
+=======
+  - component: {fileID: 8525553453385957715}
+  - component: {fileID: 34032062881862612}
+  - component: {fileID: 7773710271158105656}
+  m_Layer: 5
+  m_Name: Death Text
+>>>>>>> parent of 18e499b (test)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+<<<<<<< HEAD
 --- !u!224 &365826558344290750
+=======
+--- !u!224 &8525553453385957715
+>>>>>>> parent of 18e499b (test)
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1666431502256896113}
+=======
+  m_GameObject: {fileID: 2139910212603499307}
+>>>>>>> parent of 18e499b (test)
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0.39299092, y: 0.39299092, z: 0.39299092}
   m_ConstrainProportionsScale: 0
   m_Children: []
+<<<<<<< HEAD
   m_Father: {fileID: 3941575602947263032}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -473,23 +497,47 @@ RectTransform:
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &3499252194696537771
+=======
+  m_Father: {fileID: 7748971292454117538}
+  m_RootOrder: 3
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 500}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &34032062881862612
+>>>>>>> parent of 18e499b (test)
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1666431502256896113}
   m_CullTransparentMesh: 1
 --- !u!114 &7165408775092348683
+=======
+  m_GameObject: {fileID: 2139910212603499307}
+  m_CullTransparentMesh: 1
+--- !u!114 &7773710271158105656
+>>>>>>> parent of 18e499b (test)
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
   m_GameObject: {fileID: 1666431502256896113}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+=======
+  m_GameObject: {fileID: 2139910212603499307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+>>>>>>> parent of 18e499b (test)
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
@@ -500,6 +548,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+<<<<<<< HEAD
   m_Sprite: {fileID: 21300000, guid: d92e356740bd72d4f9651cf78787d1e7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
@@ -628,6 +677,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
+=======
+>>>>>>> parent of 18e499b (test)
   m_text: You Died...
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 1d70262364c3ba343956dfb943a37fcc, type: 2}
@@ -1244,6 +1295,7 @@ MonoBehaviour:
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 --- !u!1 &3435285894638304073
 GameObject:
@@ -1383,6 +1435,8 @@ MonoBehaviour:
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of c8a48db (Added new shop system and fixed shop errors)
+=======
+>>>>>>> parent of 18e499b (test)
 --- !u!1 &3494259278738604776
 GameObject:
   m_ObjectHideFlags: 0
@@ -2157,12 +2211,15 @@ RectTransform:
   - {fileID: 7748971292454117538}
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
   - {fileID: 4373363420562983635}
   - {fileID: 8246309258550365974}
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of c8a48db (Added new shop system and fixed shop errors)
+=======
+>>>>>>> parent of 18e499b (test)
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -2350,6 +2407,7 @@ Animator:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -2493,6 +2551,8 @@ MonoBehaviour:
 >>>>>>> parent of 65d6003 (Buying from shop works!)
 =======
 >>>>>>> parent of c8a48db (Added new shop system and fixed shop errors)
+=======
+>>>>>>> parent of 18e499b (test)
 --- !u!1 &5533207084539983123
 GameObject:
   m_ObjectHideFlags: 0
@@ -3467,6 +3527,7 @@ MonoBehaviour:
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -3552,3 +3613,5 @@ MonoBehaviour:
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of c8a48db (Added new shop system and fixed shop errors)
+=======
+>>>>>>> parent of 18e499b (test)

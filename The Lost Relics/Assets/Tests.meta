@@ -1,5 +1,6 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: d068d6768191fc34599e929f893da341
 =======
 <<<<<<<< HEAD:The Lost Relics/Assets/Imported Assets.meta
@@ -8,6 +9,21 @@ guid: 62fa3ca57cb283e44a2e478e0c6c7159
 guid: 1cc9b1fa2e13a4582802bb21167d4555
 >>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki):The Lost Relics/Assets/Tests.meta
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+<<<<<<<< HEAD:The Lost Relics/Assets/Lively_NPCs_v3.0.meta
+<<<<<<< HEAD:The Lost Relics/Assets/Imported Assets/Lively_NPCs_v3.0.meta
+<<<<<<<< HEAD:The Lost Relics/Assets/Imported Assets/Lively_NPCs_v3.0.meta
+guid: a201c46b51da7c44d8427a1392f3109e
+========
+guid: 61dc2e97fc9665b4cb2576a59d455aea
+>>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki):The Lost Relics/Assets/Sprites/Character.meta
+=======
+guid: da79e77b29f57b64790d4a0319ebad79
+>>>>>>> parent of 8d5ddba (Merge branch 'main' into Zakki):The Lost Relics/Assets/Lively_NPCs_v3.0.meta
+========
+guid: 1cc9b1fa2e13a4582802bb21167d4555
+>>>>>>>> parent of 18e499b (test):The Lost Relics/Assets/Tests.meta
+>>>>>>> parent of 18e499b (test)
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
