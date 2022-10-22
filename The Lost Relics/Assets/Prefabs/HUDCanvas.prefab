@@ -2348,6 +2348,7 @@ MonoBehaviour:
   nameText: {fileID: 7648178643487816655}
   dialogueText: {fileID: 136334456787763776}
   animator: {fileID: 7258492988810604688}
+  shopAnimator: {fileID: 8266304536592406728}
   image: {fileID: 955417304664182645}
   talking: 0
 --- !u!1 &7789350093948837205
@@ -2956,7 +2957,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8328578982853826689, guid: b618bf9adc1cb7449a656e131347fbae, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 9.21493
+      value: -395
       objectReference: {fileID: 0}
     - target: {fileID: 8328578982853826689, guid: b618bf9adc1cb7449a656e131347fbae, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2964,7 +2965,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8328578982853826689, guid: b618bf9adc1cb7449a656e131347fbae, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.16458738
+      value: -0.1645874
       objectReference: {fileID: 0}
     - target: {fileID: 8328578982853826689, guid: b618bf9adc1cb7449a656e131347fbae, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3091,6 +3092,31 @@ MonoBehaviour:
   PriceTxt: {fileID: 1390094181085839283}
   QuantityTxt: {fileID: 2970255342351493613}
   ShopManager: {fileID: 3228066910989913679}
+--- !u!1 &2777218070089282769 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1481319234460188611, guid: b618bf9adc1cb7449a656e131347fbae, type: 3}
+  m_PrefabInstance: {fileID: 3604035151237237522}
+  m_PrefabAsset: {fileID: 0}
+--- !u!95 &8266304536592406728
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2777218070089282769}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 874f9929a529fdd4aabb56cbedb26861, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!114 &2970255342351493613 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 1962564068075463423, guid: b618bf9adc1cb7449a656e131347fbae, type: 3}
