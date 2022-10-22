@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:The Lost Relics/Assets/Shop.meta
 guid: 6c818e5b39e86cd4d8678eacc52d20bd
 ========
 guid: 61dc2e97fc9665b4cb2576a59d455aea
 >>>>>>>> parent of 18e499b (test):The Lost Relics/Assets/Sprites/Character.meta
+=======
+guid: 6c818e5b39e86cd4d8678eacc52d20bd
+>>>>>>> parent of c8a48db (Added new shop system and fixed shop errors)
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

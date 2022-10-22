@@ -1,4 +1,5 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:The Lost Relics/Assets/Shop/Pixel art.meta
 guid: ed69c9325b9fbf34daa469daa36f4bc3
 ========
@@ -8,6 +9,17 @@ folderAsset: yes
 timeCreated: 1498329188
 licenseType: Store
 DefaultImporter:
+=======
+<<<<<<<< HEAD:The Lost Relics/Assets/Prefabs/Shop_UI.prefab.meta
+guid: b618bf9adc1cb7449a656e131347fbae
+PrefabImporter:
+========
+guid: ed69c9325b9fbf34daa469daa36f4bc3
+folderAsset: yes
+DefaultImporter:
+>>>>>>>> parent of c8a48db (Added new shop system and fixed shop errors):The Lost Relics/Assets/Shop/Pixel art.meta
+  externalObjects: {}
+>>>>>>> parent of c8a48db (Added new shop system and fixed shop errors)
   userData: 
   assetBundleName: 
   assetBundleVariant: 

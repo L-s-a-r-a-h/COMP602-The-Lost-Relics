@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<< HEAD:The Lost Relics/Assets/Shop/Pixel art/shop concept.png.meta
 guid: 372ec0c1a7b066047b911b683ca9620d
 =======
 guid: 080098adc5ac9cc428f1a442160eef31
 >>>>>>> parent of a6f5f4b (test2):The Lost Relics/Assets/Imported Assets/Lively_NPCs_v3.0/individual sprites/steampunk/aristocrat_01/aristocrat_01_2.png.meta
+=======
+guid: 372ec0c1a7b066047b911b683ca9620d
+>>>>>>> parent of c8a48db (Added new shop system and fixed shop errors)
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
