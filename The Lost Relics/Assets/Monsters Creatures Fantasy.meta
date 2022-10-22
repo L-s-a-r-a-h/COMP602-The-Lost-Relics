@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:The Lost Relics/Assets/Scripts/Health Potion.meta
 <<<<<<<< HEAD:The Lost Relics/Assets/Scripts/Health Potion.meta
 guid: 9d802baf881b287479a6b7033022b9e8
 ========
 guid: 080480210f236eb4d8bae4f6b33cdb46
 >>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki):The Lost Relics/Assets/Sprites/Character/Dragon Warrior PNG.meta
+=======
+guid: 6bba9164752383744b63d71ea0962fb4
+>>>>>>> parent of 8d5ddba (Merge branch 'main' into Zakki):The Lost Relics/Assets/Monsters Creatures Fantasy.meta
 folderAsset: yes
 timeCreated: 1498329188
 licenseType: Store

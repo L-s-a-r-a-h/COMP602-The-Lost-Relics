@@ -1,12 +1,10 @@
 {
-    "name": "EditModeTests",
+    "name": "Tests",
     "rootNamespace": "",
     "references": [
         "UnityEngine.TestRunner",
         "UnityEditor.TestRunner",
-        "GameAssembly",
-        "Unity.TextMeshPro",
-        "Unity.TextMeshPro.Editor"
+        "Scripts"
     ],
     "includePlatforms": [
         "Editor"
@@ -14,7 +12,9 @@
     "excludePlatforms": [],
     "allowUnsafeCode": false,
     "overrideReferences": true,
-    "precompiledReferences": [],
+    "precompiledReferences": [
+        "nunit.framework.dll"
+    ],
     "autoReferenced": false,
     "defineConstraints": [
         "UNITY_INCLUDE_TESTS"

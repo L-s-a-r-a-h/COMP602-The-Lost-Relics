@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:The Lost Relics/Assets/Imported Assets.meta
 <<<<<<<< HEAD:The Lost Relics/Assets/Imported Assets.meta
 guid: 62fa3ca57cb283e44a2e478e0c6c7159
 ========
 guid: 1cc9b1fa2e13a4582802bb21167d4555
 >>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki):The Lost Relics/Assets/Tests.meta
+=======
+guid: 6af98099e0ba2e54b929cd67aa0e798a
+>>>>>>> parent of 8d5ddba (Merge branch 'main' into Zakki):The Lost Relics/Assets/Medieval Warrior Pack 2.meta
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
