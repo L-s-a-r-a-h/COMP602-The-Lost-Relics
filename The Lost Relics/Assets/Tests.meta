@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: d068d6768191fc34599e929f893da341
+=======
+<<<<<<<< HEAD:The Lost Relics/Assets/Imported Assets.meta
+guid: 62fa3ca57cb283e44a2e478e0c6c7159
+========
+guid: 1cc9b1fa2e13a4582802bb21167d4555
+>>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki):The Lost Relics/Assets/Tests.meta
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

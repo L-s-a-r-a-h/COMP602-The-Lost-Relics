@@ -1,6 +1,11 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 <<<<<<<< HEAD:The Lost Relics/Assets/Scripts/Health Potion/HealthPot.cs.meta
 guid: 2b28622f8b363a840b68461d9d8af600
+=======
+<<<<<<<< HEAD:The Lost Relics/Assets/Scripts/MoveScenes/ReturnToTown.cs.meta
+guid: 3430a428b606bba478f954194818c628
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 ========
 guid: 711761d810f84714ca0d112149ff68c5
 >>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki):The Lost Relics/Assets/Scripts/DummyDialog.cs.meta

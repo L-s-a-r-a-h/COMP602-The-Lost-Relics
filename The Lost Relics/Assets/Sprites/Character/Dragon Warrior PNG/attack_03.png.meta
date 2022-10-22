@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: ae5f9aab77ce42d4caf40cd4f4421d5d
+=======
+<<<<<<<< HEAD:The Lost Relics/Assets/Imported Assets/Lively_NPCs_v3.0/individual sprites/steampunk/aristocrat_01/aristocrat_01_2.png.meta
+guid: 3e6a8a68b9c2592499a90cd7210f85f0
+========
+guid: 080098adc5ac9cc428f1a442160eef31
+>>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki):The Lost Relics/Assets/Sprites/Character/Dragon Warrior PNG/attack_03.png.meta
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

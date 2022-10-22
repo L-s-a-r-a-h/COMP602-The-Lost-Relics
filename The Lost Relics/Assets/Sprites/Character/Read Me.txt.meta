@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 06587c53fd51f334aae2315a9c5a83be
+=======
+<<<<<<<< HEAD:The Lost Relics/Assets/Imported Assets/stringstar fields/!readme!.txt.meta
+guid: b0b6307dbb0d8ab47a3cac8fc1fb175a
+========
+guid: 563ebafee49d57d4bba6c289e16ec57e
+>>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki):The Lost Relics/Assets/Sprites/Character/Read Me.txt.meta
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 timeCreated: 1498329236
 licenseType: Store
 TextScriptImporter:

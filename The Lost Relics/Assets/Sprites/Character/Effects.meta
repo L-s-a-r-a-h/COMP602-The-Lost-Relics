@@ -1,5 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 3670bca7fed044944ad50400e64069c9
+=======
+<<<<<<<< HEAD:The Lost Relics/Assets/Imported Assets/Lively_NPCs_v3.0/individual sprites.meta
+guid: 821e37ee20f5d7b4eaaedcd02dcf3bae
+========
+guid: f79dd284116cec24ca538e77fb47d5dd
+>>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki):The Lost Relics/Assets/Sprites/Character/Effects.meta
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 folderAsset: yes
 timeCreated: 1498329188
 licenseType: Store

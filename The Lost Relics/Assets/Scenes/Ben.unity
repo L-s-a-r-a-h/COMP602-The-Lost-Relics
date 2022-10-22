@@ -5078,6 +5078,7 @@ Transform:
   m_PrefabInstance: {fileID: 1377461535}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &17532209
 GameObject:
   m_ObjectHideFlags: 0
@@ -5232,6 +5233,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &24290032 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3199234433168532604, guid: 4c09aa47d6e0e954f899cb8efe5a6816, type: 3}
@@ -5320,6 +5323,7 @@ Rigidbody2D:
   m_CollisionDetection: 0
   m_Constraints: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &43063005
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5382,6 +5386,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7247561857966211893, guid: b5866d78fe6dce549a3dcd007f7eaca5, type: 3}
   m_PrefabInstance: {fileID: 502755875}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &58596554
@@ -5918,6 +5924,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: cb647ce4085251142a8229707f52e14e, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &88052722 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 4653831799294361326, guid: 7903d081236f2304396572efb80b5f8f, type: 3}
@@ -6166,6 +6173,8 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 6fd4973969d2f7e488c92b33dfb30433, type: 3}
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &97098696 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6309599118117444192, guid: e8bae36b607017047ace9061609051d9, type: 3}
@@ -6349,6 +6358,7 @@ PrefabInstance:
     - {fileID: 6309599118117444193, guid: e8bae36b607017047ace9061609051d9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e8bae36b607017047ace9061609051d9, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &101053171
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6521,6 +6531,8 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: d4071901789ed384389951219d1e0315, type: 3}
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &107791607 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5340538105306347130, guid: 78538c3cab4610f4d914a10e71bdf46b, type: 3}
@@ -6596,6 +6608,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f0b414806fcbda47b9f242883104bb5, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &110318000 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5340538105306347130, guid: 78538c3cab4610f4d914a10e71bdf46b, type: 3}
@@ -6606,6 +6619,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4815235850804891603, guid: e3ef72d9f2a941b479a3bda87147db32, type: 3}
   m_PrefabInstance: {fileID: 698152354}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &112317966 stripped
@@ -6983,6 +6998,7 @@ Transform:
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &128475522
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7121,6 +7137,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fd4973969d2f7e488c92b33dfb30433, type: 3}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &133376377
@@ -7410,6 +7428,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4728654af6c1b84fb5102e3f29ffb8f, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &152599034
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7495,6 +7514,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5501215039707406790, guid: 8338b726131819343a923dc96decd626, type: 3}
   m_PrefabInstance: {fileID: 1281934840}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &156617271
@@ -7719,6 +7740,7 @@ Transform:
   m_PrefabInstance: {fileID: 754538941}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &173612833
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7903,6 +7925,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &180703503 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1971259975431533168, guid: 838bd59a3c021194f80f52d07641b48b, type: 3}
@@ -7913,6 +7937,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1971259975431533168, guid: 838bd59a3c021194f80f52d07641b48b, type: 3}
   m_PrefabInstance: {fileID: 487562798}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!4 &187388968 stripped
 Transform:
@@ -8060,6 +8085,8 @@ Transform:
   m_Father: {fileID: 504819498}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &201708421
@@ -8648,6 +8675,7 @@ PrefabInstance:
     - {fileID: 6309599118117444193, guid: e8bae36b607017047ace9061609051d9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e8bae36b607017047ace9061609051d9, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &242191746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8930,6 +8958,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4140947101925605963, guid: 6fd4973969d2f7e488c92b33dfb30433, type: 3}
   m_PrefabInstance: {fileID: 253171478}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &253815893 stripped
@@ -9237,6 +9267,7 @@ Transform:
   - {fileID: 839247812}
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &261489720
@@ -9367,6 +9398,11 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 050d9e84d8de61d41ac16ebab39e64a2, type: 3}
 --- !u!1 &263819209
+=======
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &268042057
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -9601,6 +9637,7 @@ PolygonCollider2D:
       - {x: 0.515625, y: 0.25}
       - {x: 0.484375, y: 0.34375}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &294947702 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6309599118117444192, guid: e8bae36b607017047ace9061609051d9, type: 3}
@@ -9781,6 +9818,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &300605544 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1971259974131447602, guid: 838bd59a3c021194f80f52d07641b48b, type: 3}
@@ -9906,7 +9945,11 @@ Transform:
   - {fileID: 1915741621}
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 11
+=======
+  m_RootOrder: 5
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
   m_RootOrder: 5
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -9991,6 +10034,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &313250061
 PrefabInstance:
@@ -10344,11 +10388,14 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: 0a84f54077193d3489d0de133048df37, type: 3}
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &319906822 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4953252156775825096, guid: 9c33a2549922cb74493c56e9cc4a755e, type: 3}
   m_PrefabInstance: {fileID: 547132672}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &324560150
 GameObject:
@@ -15391,6 +15438,8 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &329766355
@@ -20483,6 +20532,7 @@ Rigidbody2D:
   m_CollisionDetection: 0
   m_Constraints: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &358224828
 GameObject:
   m_ObjectHideFlags: 0
@@ -20677,6 +20727,8 @@ Transform:
   m_Father: {fileID: 1500330273}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &377244474
@@ -25808,6 +25860,7 @@ Transform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &418942101 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5260572382779035084, guid: c5f8f079905bce04f945cd8ff4ba545a, type: 3}
@@ -25883,6 +25936,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4140947101925605963, guid: 6fd4973969d2f7e488c92b33dfb30433, type: 3}
   m_PrefabInstance: {fileID: 419072225}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &421965111
@@ -26189,6 +26244,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5789200093759024975, guid: ab9278aa8a6f856468c48e893720a765, type: 3}
   m_PrefabInstance: {fileID: 229027444}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &431803782
 PrefabInstance:
@@ -31081,6 +31137,8 @@ ParticleSystem:
     vectorLabel1_3: W
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &432717899 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7602366711053158309, guid: 56e2a525e0fbd93419c9b313c362934d, type: 3}
@@ -31373,6 +31431,7 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2048213961823272354, guid: 27277137d0605bd45bd741cdb791e0c1, type: 3}
+<<<<<<< HEAD
       propertyPath: m_LocalEulerAnglesHint.z
       value: -90
       objectReference: {fileID: 0}
@@ -31449,6 +31508,13 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5fd9ed34f1f755643b41c4b41d7077e5, type: 3}
 =======
+  m_SourcePrefab: {fileID: 100100000, guid: 27277137d0605bd45bd741cdb791e0c1, type: 3}
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: -90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 27277137d0605bd45bd741cdb791e0c1, type: 3}
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &469771176 stripped
@@ -31570,6 +31636,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 05d871b9365825b4ca356e1345739ee2, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &481208358
 GameObject:
@@ -36556,6 +36623,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &487069883
 GameObject:
   m_ObjectHideFlags: 0
@@ -37218,6 +37287,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5340538105306347130, guid: 78538c3cab4610f4d914a10e71bdf46b, type: 3}
   m_PrefabInstance: {fileID: 1740917576}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &530351193 stripped
 GameObject:
@@ -42391,6 +42461,8 @@ BoxCollider2D:
   m_EdgeRadius: 0
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &542928079
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -42748,6 +42820,7 @@ Transform:
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &553225454
 GameObject:
   m_ObjectHideFlags: 0
@@ -42854,6 +42927,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4140947101925605963, guid: 6fd4973969d2f7e488c92b33dfb30433, type: 3}
   m_PrefabInstance: {fileID: 554296633}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &560958765
@@ -43013,7 +43088,11 @@ PrefabInstance:
     - target: {fileID: 843293217905692341, guid: 337bf7fb32e777b41a8411ca5d35e56f, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 20
+=======
+      value: 11
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
       value: 11
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -43187,6 +43266,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 685155958435090715, guid: f5ef6ca0b0e1f929da3de15be95e4ea1, type: 3}
   m_PrefabInstance: {fileID: 654449732}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &573927748
 GameObject:
@@ -43411,6 +43491,8 @@ Transform:
   m_Father: {fileID: 585550752}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -174.8}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &581252632 stripped
@@ -44047,6 +44129,7 @@ Transform:
   m_PrefabInstance: {fileID: 1428208090}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &617371585
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44117,6 +44200,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4140947101925605963, guid: 6fd4973969d2f7e488c92b33dfb30433, type: 3}
   m_PrefabInstance: {fileID: 617371585}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &618382458 stripped
@@ -44601,6 +44686,7 @@ PrefabInstance:
     - {fileID: 6309599118117444193, guid: e8bae36b607017047ace9061609051d9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e8bae36b607017047ace9061609051d9, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &665212048 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7247561857966211893, guid: b5866d78fe6dce549a3dcd007f7eaca5, type: 3}
@@ -44868,6 +44954,8 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: e8bae36b607017047ace9061609051d9, type: 3}
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &674125341
 GameObject:
   m_ObjectHideFlags: 0
@@ -44899,6 +44987,7 @@ Transform:
   m_Father: {fileID: 1014401506}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &674356655
 GameObject:
@@ -45230,6 +45319,8 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: e3ef72d9f2a941b479a3bda87147db32, type: 3}
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &701078956 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6309599118117444192, guid: e8bae36b607017047ace9061609051d9, type: 3}
@@ -45338,6 +45429,7 @@ Transform:
   m_Father: {fileID: 496052445}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &706629820
 PrefabInstance:
@@ -45527,6 +45619,8 @@ Transform:
   m_Father: {fileID: 1537383203}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &722486192 stripped
@@ -46368,6 +46462,7 @@ Transform:
   m_PrefabInstance: {fileID: 1237773933}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &761039719
 GameObject:
   m_ObjectHideFlags: 0
@@ -46513,6 +46608,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4140947101925605963, guid: 6fd4973969d2f7e488c92b33dfb30433, type: 3}
   m_PrefabInstance: {fileID: 762926292}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &765551772
@@ -46694,6 +46791,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d4071901789ed384389951219d1e0315, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &768938836
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46764,6 +46862,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4140947101925605963, guid: 6fd4973969d2f7e488c92b33dfb30433, type: 3}
   m_PrefabInstance: {fileID: 768938836}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &770685991 stripped
@@ -47065,7 +47165,11 @@ Transform:
   - {fileID: 1644498776}
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 13
+=======
+  m_RootOrder: 7
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
   m_RootOrder: 7
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -47145,6 +47249,7 @@ PrefabInstance:
     - {fileID: 6309599118117444193, guid: e8bae36b607017047ace9061609051d9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e8bae36b607017047ace9061609051d9, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &812475507 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2719227801452879243, guid: 0a84f54077193d3489d0de133048df37, type: 3}
@@ -47215,6 +47320,8 @@ Transform:
   m_Father: {fileID: 1651592945}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &823766251
@@ -47533,6 +47640,7 @@ BoxCollider2D:
   m_Size: {x: 4.0973587, y: 2.2397842}
   m_EdgeRadius: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &836987026 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6470441644502814732, guid: ab2f44b99adf358449c83b74c274b97b, type: 3}
@@ -47540,6 +47648,10 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &838938922
 GameObject:
+=======
+--- !u!114 &831868443
+MonoBehaviour:
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 --- !u!114 &831868443
 MonoBehaviour:
@@ -47865,6 +47977,7 @@ PrefabInstance:
     - {fileID: 6309599118117444193, guid: e8bae36b607017047ace9061609051d9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e8bae36b607017047ace9061609051d9, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &846943247
 GameObject:
   m_ObjectHideFlags: 0
@@ -48176,6 +48289,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &860826869 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6309599118117444192, guid: e8bae36b607017047ace9061609051d9, type: 3}
@@ -48258,6 +48373,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 1971259975431533168, guid: 838bd59a3c021194f80f52d07641b48b, type: 3}
   m_PrefabInstance: {fileID: 1364638577}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &864494618
 PrefabInstance:
@@ -48474,6 +48590,8 @@ BoxCollider2D:
   m_EdgeRadius: 0
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &865562013 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1971259975431533168, guid: 838bd59a3c021194f80f52d07641b48b, type: 3}
@@ -48620,6 +48738,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5340538105306347130, guid: 78538c3cab4610f4d914a10e71bdf46b, type: 3}
   m_PrefabInstance: {fileID: 1726791195}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &893474605
 PrefabInstance:
@@ -48768,6 +48887,9 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: de570bfbf1a49ba4c9575930f7db6bae, type: 3}
 --- !u!1 &902998029
+=======
+--- !u!1 &899666332 stripped
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 --- !u!1 &899666332 stripped
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -49008,6 +49130,7 @@ PrefabInstance:
     - {fileID: 6309599118117444193, guid: e8bae36b607017047ace9061609051d9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e8bae36b607017047ace9061609051d9, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &919973004
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49078,6 +49201,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4140947101925605963, guid: 6fd4973969d2f7e488c92b33dfb30433, type: 3}
   m_PrefabInstance: {fileID: 919973004}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &924502424 stripped
@@ -49261,6 +49386,7 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
 <<<<<<< HEAD
+<<<<<<< HEAD
     - target: {fileID: 1491143302153521340, guid: 998416a102e165d45af6d1d6303f7124, type: 3}
       propertyPath: m_RootOrder
       value: 10
@@ -49273,6 +49399,8 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 319906822}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
     - target: {fileID: 6723859832116769775, guid: 998416a102e165d45af6d1d6303f7124, type: 3}
@@ -49373,6 +49501,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 998416a102e165d45af6d1d6303f7124, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &938968947
 GameObject:
@@ -49566,6 +49695,8 @@ Transform:
   m_Father: {fileID: 244851094}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -124.11}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &948413381 stripped
@@ -55103,6 +55234,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
 <<<<<<< HEAD
+<<<<<<< HEAD
   id: bensRelic
 --- !u!1001 &978695913
 PrefabInstance:
@@ -55174,6 +55306,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4140947101925605963, guid: 6fd4973969d2f7e488c92b33dfb30433, type: 3}
   m_PrefabInstance: {fileID: 978695913}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &981484003
@@ -55341,6 +55475,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &985524253
 GameObject:
@@ -55807,6 +55942,8 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &1003473608 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6309599118117444192, guid: e8bae36b607017047ace9061609051d9, type: 3}
@@ -55925,6 +56062,7 @@ Transform:
   - {fileID: 452159786}
   m_Father: {fileID: 1359379666}
   m_RootOrder: 1
+<<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1008851753
 GameObject:
@@ -55958,6 +56096,8 @@ Transform:
   - {fileID: 432289843}
   m_Father: {fileID: 2032396515}
   m_RootOrder: 0
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!212 &1008851755
 SpriteRenderer:
@@ -56623,6 +56763,7 @@ Transform:
   m_PrefabInstance: {fileID: 567685044}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1042386089
 GameObject:
   m_ObjectHideFlags: 0
@@ -56860,6 +57001,8 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &1053813803 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5340538105306347130, guid: 78538c3cab4610f4d914a10e71bdf46b, type: 3}
@@ -57049,6 +57192,7 @@ PrefabInstance:
     - {fileID: 6309599118117444193, guid: e8bae36b607017047ace9061609051d9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e8bae36b607017047ace9061609051d9, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1067439268
 GameObject:
   m_ObjectHideFlags: 0
@@ -57205,6 +57349,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &1073844507
 GameObject:
   m_ObjectHideFlags: 0
@@ -57236,6 +57382,7 @@ Transform:
   m_Father: {fileID: 1493927144}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -90}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &1075278791
 PrefabInstance:
@@ -57481,6 +57628,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4006423538120568096, guid: 5105ccaacad8d714b94dfb93084fa936, type: 3}
   m_PrefabInstance: {fileID: 1526098099}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &1098164791
@@ -57832,6 +57981,7 @@ Transform:
   - {fileID: 1839607110}
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1112193152
@@ -57867,12 +58017,16 @@ Transform:
 =======
   m_RootOrder: 9
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+  m_RootOrder: 9
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1115747920 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1971259975431533168, guid: 838bd59a3c021194f80f52d07641b48b, type: 3}
   m_PrefabInstance: {fileID: 121016299}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!4 &1117340536 stripped
 Transform:
@@ -57915,6 +58069,8 @@ Transform:
   m_Father: {fileID: 1078657312}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -174.8}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &1120032435 stripped
@@ -57994,6 +58150,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1129528054
 GameObject:
@@ -58156,6 +58313,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &1132594254 stripped
@@ -58384,6 +58543,7 @@ PrefabInstance:
     - {fileID: 6309599118117444193, guid: e8bae36b607017047ace9061609051d9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e8bae36b607017047ace9061609051d9, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1150120747 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2719227801452879243, guid: 0a84f54077193d3489d0de133048df37, type: 3}
@@ -58549,6 +58709,8 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: e8bae36b607017047ace9061609051d9, type: 3}
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &1156108286 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6309599118117444192, guid: e8bae36b607017047ace9061609051d9, type: 3}
@@ -58627,6 +58789,7 @@ Rigidbody2D:
   m_CollisionDetection: 0
   m_Constraints: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1157839213 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 880520027387217216, guid: de570bfbf1a49ba4c9575930f7db6bae, type: 3}
@@ -58663,6 +58826,8 @@ Transform:
   m_Father: {fileID: 971858788}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &1159946157
@@ -59030,6 +59195,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c13263f1f05170f4e849875cee5c46d0, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1177671391
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -59100,6 +59266,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4140947101925605963, guid: 6fd4973969d2f7e488c92b33dfb30433, type: 3}
   m_PrefabInstance: {fileID: 1177671391}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &1178195041 stripped
@@ -59209,6 +59377,7 @@ Transform:
   - {fileID: 620264067}
   - {fileID: 823766254}
   m_Father: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
   m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -59457,6 +59626,9 @@ Transform:
 =======
   m_RootOrder: 10
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+  m_RootOrder: 10
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1209310756
 PrefabInstance:
@@ -59568,6 +59740,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab9278aa8a6f856468c48e893720a765, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1212227377
 GameObject:
   m_ObjectHideFlags: 0
@@ -59667,6 +59840,8 @@ Transform:
   m_Father: {fileID: 1952484907}
   m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &1215421235
@@ -60485,6 +60660,7 @@ Transform:
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1264322759
 GameObject:
   m_ObjectHideFlags: 0
@@ -60741,6 +60917,8 @@ BoxCollider2D:
   m_EdgeRadius: 0
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &1268010732 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5340538105306347130, guid: 78538c3cab4610f4d914a10e71bdf46b, type: 3}
@@ -60819,6 +60997,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f0b414806fcbda47b9f242883104bb5, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &1281934840
 PrefabInstance:
@@ -60916,6 +61095,8 @@ Transform:
   m_Father: {fileID: 1651592945}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &1291073466
@@ -61163,6 +61344,7 @@ PrefabInstance:
     - {fileID: 6309599118117444193, guid: e8bae36b607017047ace9061609051d9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e8bae36b607017047ace9061609051d9, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1295175555
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -61258,6 +61440,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &1301108954 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 7602366711053158307, guid: 56e2a525e0fbd93419c9b313c362934d, type: 3}
@@ -61319,6 +61503,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_Points:
     m_Paths:
     - - {x: 0.4817988, y: 0.5243132}
@@ -61334,6 +61519,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8369383532742148375, guid: 5fd9ed34f1f755643b41c4b41d7077e5, type: 3}
   m_PrefabInstance: {fileID: 1565696315}
   m_PrefabAsset: {fileID: 0}
+=======
+  serializedVersion: 2
+  m_Size: {x: 1.21875, y: 0.96875}
+  m_EdgeRadius: 0
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
   serializedVersion: 2
   m_Size: {x: 1.21875, y: 0.96875}
@@ -61992,6 +62182,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 838bd59a3c021194f80f52d07641b48b, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1326054166
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -62114,6 +62305,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e3ef72d9f2a941b479a3bda87147db32, type: 3}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &1327542255
@@ -68040,6 +68233,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2f54e7022d76f09478e2e1124e212cc5, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1396230900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68105,6 +68299,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6fd4973969d2f7e488c92b33dfb30433, type: 3}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &1396523083
@@ -68344,6 +68540,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78538c3cab4610f4d914a10e71bdf46b, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1404559350 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 880520027387217216, guid: de570bfbf1a49ba4c9575930f7db6bae, type: 3}
@@ -68494,6 +68691,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4140947101925605963, guid: 6fd4973969d2f7e488c92b33dfb30433, type: 3}
   m_PrefabInstance: {fileID: 1411096958}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &1411485408 stripped
@@ -69407,6 +69606,7 @@ Transform:
   - {fileID: 1053813803}
   - {fileID: 949732388}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 18695095}
   - {fileID: 487011851}
   - {fileID: 110318000}
@@ -69415,6 +69615,10 @@ Transform:
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
   m_Father: {fileID: 810843041}
   m_RootOrder: 0
+=======
+  m_Father: {fileID: 810843041}
+  m_RootOrder: 1
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1485045413 stripped
 GameObject:
@@ -70209,6 +70413,7 @@ Transform:
   m_PrefabInstance: {fileID: 875719452}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1537383202
 GameObject:
   m_ObjectHideFlags: 0
@@ -70330,6 +70535,8 @@ PrefabInstance:
   m_SourcePrefab: {fileID: 100100000, guid: d4071901789ed384389951219d1e0315, type: 3}
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &1543278662 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6309599118117444192, guid: e8bae36b607017047ace9061609051d9, type: 3}
@@ -70449,11 +70656,19 @@ PrefabInstance:
     - target: {fileID: 8893287330066116543, guid: 92a08448cd3527a4aaf11bc404e0f1a0, type: 3}
       propertyPath: m_LocalPosition.x
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: -0.73
       objectReference: {fileID: 0}
     - target: {fileID: 8893287330066116543, guid: 92a08448cd3527a4aaf11bc404e0f1a0, type: 3}
       propertyPath: m_LocalPosition.y
       value: 1.61
+=======
+      value: -0.02
+      objectReference: {fileID: 0}
+    - target: {fileID: 8893287330066116543, guid: 92a08448cd3527a4aaf11bc404e0f1a0, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.58
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
       value: -0.02
       objectReference: {fileID: 0}
@@ -70489,7 +70704,11 @@ PrefabInstance:
     - target: {fileID: 8893287330390304281, guid: 92a08448cd3527a4aaf11bc404e0f1a0, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 11
+=======
+      value: 1
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
       value: 1
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -70871,6 +71090,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 838bd59a3c021194f80f52d07641b48b, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1565696315
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71003,6 +71223,8 @@ Transform:
   m_Father: {fileID: 1337238074}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &1572481882
@@ -71219,6 +71441,7 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 6309599118117444193, guid: e8bae36b607017047ace9061609051d9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e8bae36b607017047ace9061609051d9, type: 3}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1592911411
 GameObject:
@@ -76224,6 +76447,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &1602766574
 GameObject:
   m_ObjectHideFlags: 0
@@ -76255,6 +76480,7 @@ Transform:
   m_Father: {fileID: 495106827}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!4 &1605796199 stripped
 Transform:
@@ -76548,6 +76774,8 @@ Transform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &1630503742
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76703,6 +76931,7 @@ Transform:
   m_PrefabInstance: {fileID: 564212965}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1651374817
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -76800,6 +77029,8 @@ Transform:
   m_Father: {fileID: 1693917724}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &1652787787
@@ -82325,6 +82556,7 @@ Transform:
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1682654420
 GameObject:
   m_ObjectHideFlags: 0
@@ -82447,11 +82679,14 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &1693646906 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5340538105306347130, guid: 78538c3cab4610f4d914a10e71bdf46b, type: 3}
   m_PrefabInstance: {fileID: 115789956}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1693917723
 GameObject:
@@ -82566,6 +82801,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &1695611772 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5789200093759024975, guid: ab9278aa8a6f856468c48e893720a765, type: 3}
@@ -82648,6 +82885,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!4 &1705561044 stripped
 Transform:
@@ -82747,6 +82985,8 @@ EdgeCollider2D:
   m_AdjacentEndPoint: {x: 0, y: 0}
   m_UseAdjacentStartPoint: 0
   m_UseAdjacentEndPoint: 0
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &1712758380
@@ -83161,6 +83401,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 838bd59a3c021194f80f52d07641b48b, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1728276886
 GameObject:
   m_ObjectHideFlags: 0
@@ -83359,6 +83600,8 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &1732824014 stripped
@@ -83647,6 +83890,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab9278aa8a6f856468c48e893720a765, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1746223814
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -83787,6 +84031,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4140947101925605963, guid: 6fd4973969d2f7e488c92b33dfb30433, type: 3}
   m_PrefabInstance: {fileID: 1751332804}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &1755707343
@@ -84137,12 +84383,15 @@ Transform:
   m_PrefabInstance: {fileID: 58596554}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!4 &1798208865 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5260572382779035084, guid: c5f8f079905bce04f945cd8ff4ba545a, type: 3}
   m_PrefabInstance: {fileID: 2044971885}
   m_PrefabAsset: {fileID: 0}
 =======
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!114 &1792293118
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -84155,12 +84404,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: abc77104b79047c44855dcfbb3939fd8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &1801902872 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5340538105306347130, guid: 78538c3cab4610f4d914a10e71bdf46b, type: 3}
   m_PrefabInstance: {fileID: 1215421235}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1001 &1803500426
 PrefabInstance:
@@ -84317,11 +84570,14 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &1805275365 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1971259973996962191, guid: 838bd59a3c021194f80f52d07641b48b, type: 3}
   m_PrefabInstance: {fileID: 121016299}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &1812183766
 GameObject:
@@ -84428,6 +84684,8 @@ Transform:
   m_Father: {fileID: 1337238074}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &1820642892
@@ -84625,7 +84883,11 @@ PrefabInstance:
     - target: {fileID: 3848362567367800609, guid: 9364b73a48e6c9248a7beedac9c20032, type: 3}
       propertyPath: m_RootOrder
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 9
+=======
+      value: 2
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
       value: 2
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -84828,7 +85090,11 @@ Transform:
   m_GameObject: {fileID: 1841153876}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_LocalPosition: {x: -0.04, y: 0.39, z: -0.34048286}
+=======
+  m_LocalPosition: {x: 0.01, y: 0.37, z: -0.34048286}
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
   m_LocalPosition: {x: 0.01, y: 0.37, z: -0.34048286}
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -89635,6 +89901,7 @@ Transform:
   m_PrefabInstance: {fileID: 567685044}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1 &1844418229
 GameObject:
   m_ObjectHideFlags: 0
@@ -89826,6 +90093,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &1845420123 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1971259974131447602, guid: 838bd59a3c021194f80f52d07641b48b, type: 3}
@@ -89951,6 +90220,7 @@ Transform:
   m_PrefabInstance: {fileID: 1325994801}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1874344087
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -90026,6 +90296,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7247561857966211893, guid: b5866d78fe6dce549a3dcd007f7eaca5, type: 3}
   m_PrefabInstance: {fileID: 577176561}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &1882188670
@@ -90132,6 +90404,7 @@ PrefabInstance:
     - target: {fileID: 4140947101925605963, guid: 6fd4973969d2f7e488c92b33dfb30433, type: 3}
       propertyPath: m_LocalPosition.z
 <<<<<<< HEAD
+<<<<<<< HEAD
       value: 0.5793586
       objectReference: {fileID: 0}
     - target: {fileID: 4140947101925605963, guid: 6fd4973969d2f7e488c92b33dfb30433, type: 3}
@@ -90198,6 +90471,9 @@ PrefabInstance:
     - target: {fileID: 4140947101925605963, guid: 6fd4973969d2f7e488c92b33dfb30433, type: 3}
       propertyPath: m_LocalPosition.z
       value: 0.5793586
+=======
+      value: 0.552244
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
       value: 0.552244
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -90761,6 +91037,7 @@ PrefabInstance:
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78538c3cab4610f4d914a10e71bdf46b, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1930856541
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -90856,6 +91133,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4006423538120568096, guid: 5105ccaacad8d714b94dfb93084fa936, type: 3}
   m_PrefabInstance: {fileID: 544001915}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &1932486901 stripped
@@ -91053,6 +91332,7 @@ PrefabInstance:
     - {fileID: 6309599118117444193, guid: e8bae36b607017047ace9061609051d9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e8bae36b607017047ace9061609051d9, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1941910001
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -91123,6 +91403,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4140947101925605963, guid: 6fd4973969d2f7e488c92b33dfb30433, type: 3}
   m_PrefabInstance: {fileID: 1941910001}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &1942109741 stripped
@@ -91306,8 +91588,11 @@ Transform:
   - {fileID: 637947183}
   - {fileID: 954397403}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - {fileID: 1644498776}
   - {fileID: 1212479590}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
   m_Father: {fileID: 810843041}
@@ -134997,7 +135282,11 @@ Tilemap:
   - m_RefCount: 9
     m_Data: {fileID: 11400000, guid: 62f433aa5b534d948847e6cc1409e14b, type: 2}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - m_RefCount: 32
+=======
+  - m_RefCount: 24
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
   - m_RefCount: 24
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -135111,7 +135400,11 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: 11400000, guid: ebe95d873c8d1a7458184bb400619100, type: 2}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - m_RefCount: 174
+=======
+  - m_RefCount: 215
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
   - m_RefCount: 215
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -135172,7 +135465,11 @@ Tilemap:
   - m_RefCount: 66
     m_Data: {fileID: 1922864012054007380, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - m_RefCount: 32
+=======
+  - m_RefCount: 24
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
   - m_RefCount: 24
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -135362,7 +135659,11 @@ Tilemap:
   - m_RefCount: 1
     m_Data: {fileID: -3205075110183578529, guid: 157cbc340d2b7e64ab85168e80e95550, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
   - m_RefCount: 174
+=======
+  - m_RefCount: 215
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
   - m_RefCount: 215
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -136719,6 +137020,9 @@ CompositeCollider2D:
       - X: 615625024
         Y: -60000000
     - - X: 730000000
+<<<<<<< HEAD
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
         Y: -70000000
       - X: 660312512
@@ -136732,6 +137036,7 @@ CompositeCollider2D:
       - X: 730000000
         Y: -80000000
 <<<<<<< HEAD
+<<<<<<< HEAD
       - X: 709999900
         Y: -80000041
       - X: 709999959
@@ -136739,6 +137044,8 @@ CompositeCollider2D:
       - X: 720000041
         Y: -80000100
 =======
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
     - - X: 460000000
         Y: -88750000
       - X: 460000000
@@ -136886,6 +137193,9 @@ CompositeCollider2D:
       - X: 531562496
         Y: -110000000
       - X: 545000000
+<<<<<<< HEAD
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
         Y: -110000000
     - - X: 520000000
@@ -138905,6 +139215,7 @@ CompositeCollider2D:
       - X: 435000009
         Y: -750000100
 <<<<<<< HEAD
+<<<<<<< HEAD
     - - X: 620000100
         Y: -780000041
       - X: 620000100
@@ -139121,6 +139432,8 @@ CompositeCollider2D:
         Y: -860000100
       - X: 648125012
         Y: -860000100
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
     - - X: 470000100
@@ -139594,12 +139907,15 @@ CompositeCollider2D:
       - {x: 84.00001, y: -10.968759}
       - {x: 84.031265, y: -11}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - - {x: 45.937485, y: -9}
       - {x: 46, y: -8.874994}
       - {x: 45.999973, y: -8}
       - {x: 43, y: -8.00003}
       - {x: 43.00001, y: -8.875008}
       - {x: 43.218754, y: -9}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
     - - {x: 81.593735, y: -15}
@@ -139636,7 +139952,10 @@ CompositeCollider2D:
       - {x: 53.062508, y: -10.937504}
       - {x: 53.156258, y: -11}
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
     - - {x: 9.937484, y: -11}
       - {x: 10, y: -10.874994}
       - {x: 9.99997, y: -10}
@@ -140222,6 +140541,7 @@ CompositeCollider2D:
       - {x: 42.0625, y: -74.93751}
       - {x: 42.156258, y: -75.000015}
 <<<<<<< HEAD
+<<<<<<< HEAD
     - - {x: 61.999973, y: -78.000015}
       - {x: 61.999973, y: -76.999985}
       - {x: 60.99999, y: -77.00002}
@@ -140276,6 +140596,8 @@ CompositeCollider2D:
       - {x: 63.99999, y: -84.00002}
       - {x: 63.999996, y: -85.78126}
       - {x: 64.09376, y: -86.000015}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
     - - {x: 46.999973, y: -94.000015}
@@ -140662,6 +140984,7 @@ PrefabInstance:
     - {fileID: 6309599118117444193, guid: e8bae36b607017047ace9061609051d9, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: e8bae36b607017047ace9061609051d9, type: 3}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &1985616673
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -140766,6 +141089,8 @@ Transform:
   m_Father: {fileID: 1339166049}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!4 &1989275393 stripped
@@ -140879,6 +141204,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3542349260266563072, guid: e900e8c0545e53448b048af325b17572, type: 3}
   m_PrefabInstance: {fileID: 1310078687}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &2018426550
 GameObject:
@@ -141253,6 +141579,8 @@ SpriteRenderer:
   m_SpriteSortPoint: 0
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &2036836362
 GameObject:
   m_ObjectHideFlags: 0
@@ -141284,6 +141612,7 @@ Transform:
   m_Father: {fileID: 1358438931}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -190}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!4 &2037576692 stripped
 Transform:
@@ -141493,6 +141822,8 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7247561857966211893, guid: b5866d78fe6dce549a3dcd007f7eaca5, type: 3}
   m_PrefabInstance: {fileID: 101053171}
   m_PrefabAsset: {fileID: 0}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &2064349443
@@ -142128,6 +142459,7 @@ Transform:
   m_PrefabInstance: {fileID: 334636961}
   m_PrefabAsset: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
 --- !u!1001 &2087052989
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -142254,6 +142586,8 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 78538c3cab4610f4d914a10e71bdf46b, type: 3}
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1001 &2088241332
@@ -142691,7 +143025,11 @@ Transform:
   - {fileID: 2108907349}
   m_Father: {fileID: 0}
 <<<<<<< HEAD
+<<<<<<< HEAD
   m_RootOrder: 14
+=======
+  m_RootOrder: 8
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
   m_RootOrder: 8
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
@@ -142701,6 +143039,7 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7730023291812254614, guid: d4071901789ed384389951219d1e0315, type: 3}
   m_PrefabInstance: {fileID: 767005189}
   m_PrefabAsset: {fileID: 0}
+<<<<<<< HEAD
 <<<<<<< HEAD
 --- !u!1 &2104028005
 GameObject:
@@ -142797,6 +143136,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+=======
+>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 =======
 >>>>>>> parent of e42bbac (Merge branch 'main' into Zakki)
 --- !u!1 &2108787545 stripped
