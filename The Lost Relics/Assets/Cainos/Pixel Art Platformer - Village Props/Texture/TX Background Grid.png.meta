@@ -1,9 +1,13 @@
 fileFormatVersion: 2
+<<<<<<< HEAD:The Lost Relics/Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Background Grid.png.meta
 <<<<<<<< HEAD:The Lost Relics/Assets/Imported Assets/Cainos/Pixel Art Platformer - Village Props/Texture/TX Background Grid.png.meta
 guid: 4525736a9d0538940bce8f13f1227b26
 ========
 guid: 2d81263c15e0870429e027cfa336f392
 >>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki):The Lost Relics/Assets/Sprites/Character/Dragon Warrior PNG/attack_01.png.meta
+=======
+guid: 2d81263c15e0870429e027cfa336f392
+>>>>>>> parent of a6f5f4b (test2):The Lost Relics/Assets/Imported Assets/Lively_NPCs_v3.0/individual sprites/steampunk/aristocrat_01/aristocrat_01_4.png.meta
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

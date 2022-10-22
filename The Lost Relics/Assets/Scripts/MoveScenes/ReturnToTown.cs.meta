@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 <<<<<<<< HEAD:The Lost Relics/Assets/Scripts/MoveScenes/ReturnToTown.cs.meta
 guid: 3430a428b606bba478f954194818c628
 ========
@@ -16,6 +17,9 @@ guid: be9a1d606c02745cebfba1313c930892
 =======
 guid: be9a1d606c02745cebfba1313c930892
 >>>>>>> parent of 18e499b (test)
+=======
+guid: be9a1d606c02745cebfba1313c930892
+>>>>>>> parent of a6f5f4b (test2)
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2

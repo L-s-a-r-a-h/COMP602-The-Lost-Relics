@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: fed23f9e2063f1d4d8c58cb02686ab49
 =======
 =======
@@ -18,6 +19,9 @@ guid: f11802c99509ede4c9db6c8746969cc8
 guid: f11802c99509ede4c9db6c8746969cc8
 >>>>>>>> parent of 18e499b (test):The Lost Relics/Assets/Sprites/Character/Dragon Warrior PNG/crouch_01.png.meta
 >>>>>>> parent of 18e499b (test)
+=======
+guid: f11802c99509ede4c9db6c8746969cc8
+>>>>>>> parent of a6f5f4b (test2)
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}

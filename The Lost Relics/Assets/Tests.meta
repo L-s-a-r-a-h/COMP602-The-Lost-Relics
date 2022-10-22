@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: d068d6768191fc34599e929f893da341
 =======
 <<<<<<<< HEAD:The Lost Relics/Assets/Imported Assets.meta
@@ -24,6 +25,9 @@ guid: da79e77b29f57b64790d4a0319ebad79
 guid: 1cc9b1fa2e13a4582802bb21167d4555
 >>>>>>>> parent of 18e499b (test):The Lost Relics/Assets/Tests.meta
 >>>>>>> parent of 18e499b (test)
+=======
+guid: 1cc9b1fa2e13a4582802bb21167d4555
+>>>>>>> parent of a6f5f4b (test2)
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}

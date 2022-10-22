@@ -1,6 +1,7 @@
 fileFormatVersion: 2
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 guid: ae5f9aab77ce42d4caf40cd4f4421d5d
 =======
 =======
@@ -18,6 +19,9 @@ guid: 080098adc5ac9cc428f1a442160eef31
 guid: 080098adc5ac9cc428f1a442160eef31
 >>>>>>>> parent of 18e499b (test):The Lost Relics/Assets/Sprites/Character/Dragon Warrior PNG/attack_03.png.meta
 >>>>>>> parent of 18e499b (test)
+=======
+guid: 080098adc5ac9cc428f1a442160eef31
+>>>>>>> parent of a6f5f4b (test2)
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
