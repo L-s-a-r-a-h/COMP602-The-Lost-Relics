@@ -1,7 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
 
 public class OpenChest : Interactable
 {
@@ -10,16 +9,13 @@ public class OpenChest : Interactable
     public Transform startPos;
     public GameObject item;
     public bool locked;
-    [SerializeField] private TextMeshPro message;
 
-    
-
+   
 
     void Start()
     {
         anim = GetComponent<Animator>();
         anim.enabled = false;
-        message.enabled = false;
 
     }
 
@@ -28,22 +24,12 @@ public class OpenChest : Interactable
      
             if (locked == true)
             {
-                if(Keys.numKeys > 0)
-                {
-                    Keys.numKeys--;
-                    Debug.Log("Opened, key used");
-                    anim.enabled = true;
-                    anim.Play("AM Chest Golden - Open");
-                    Instantiate(item, startPos.position, startPos.rotation);
-                    
-                }
-                else{
-                    message.text = "Locked";
-                     message.enabled = true;
-                }
+                anim.enabled = true;
+                anim.Play("AM Chest Golden - Open");
+                Instantiate(item, startPos.position, startPos.rotation);
+                Debug.Log("Opened");
             }
-
-            if (locked == false)
+            else
             {
                 anim.enabled = true;
                 anim.Play("AM Chest Wooden - Open");
@@ -55,6 +41,6 @@ public class OpenChest : Interactable
 
     public override void HideInteraction()
     {
-       message.enabled = false;
+       
     }
 }

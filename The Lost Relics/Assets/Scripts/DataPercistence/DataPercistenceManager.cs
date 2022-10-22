@@ -49,7 +49,6 @@ public class DataPercistenceManager : MonoBehaviour
         UnityEngine.SceneManagement.SceneManager.sceneLoaded += OnSceneLoaded;
         Debug.Log("scenemanager.sceneloaded called");
     }
-
      void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         this.dataPercistenceObjects = FindDataPercistenceObjects();
@@ -90,8 +89,7 @@ public class DataPercistenceManager : MonoBehaviour
         if (this.gameData == null)
         {
             Debug.Log("no game data found. starting new game");
-            newGame();
-         //   return;
+            return;
         }
     }
     public void loadGame()
@@ -141,16 +139,6 @@ public class DataPercistenceManager : MonoBehaviour
      
         loadGame();
     }
-
-    public void nextScene(string name)
-    {
-
-        gameData.scene = name;
-        Debug.Log(name);
-        saveGame();
-        Debug.Log(gameData.scene);
-    }
-
 
 
     public void ButtonLoad2()
