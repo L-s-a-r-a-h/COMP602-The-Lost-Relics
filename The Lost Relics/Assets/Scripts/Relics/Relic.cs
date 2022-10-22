@@ -14,6 +14,7 @@ public class Relic : MonoBehaviour
             RelicsCollected.numRelics++;
             Destroy(GetComponent<Collider2D>().gameObject);
             Debug.Log("Relic Collected");
+            returnManager.instance.RelicCollected();
         }
     }
 }

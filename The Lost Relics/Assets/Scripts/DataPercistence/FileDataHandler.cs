@@ -73,8 +73,6 @@ public class FileDataHandler
             Directory.CreateDirectory(Path.GetDirectoryName(fullPath));
 
    
-            Directory.CreateDirectory(Path.GetDirectoryName(fullPath)); 
-
             // serialise game data into json 
             string dataToStore = JsonUtility.ToJson(data, true);
 
