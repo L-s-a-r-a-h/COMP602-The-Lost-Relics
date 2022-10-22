@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:The Lost Relics/Assets/Scripts/Health Potion/HealthPot.cs.meta
+guid: 4cc3279358088434cb81a1b3b22c2539
+========
+guid: 711761d810f84714ca0d112149ff68c5
+>>>>>>>> parent of e42bbac (Merge branch 'main' into Zakki):The Lost Relics/Assets/Scripts/DummyDialog.cs.meta
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences: []
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
