@@ -59,5 +59,6 @@ public class Health : MonoBehaviour
         {
             DecreaseHealth(1);
         }
+        
     }
 }
