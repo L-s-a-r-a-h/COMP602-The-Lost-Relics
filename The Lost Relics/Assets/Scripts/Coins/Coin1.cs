@@ -43,7 +43,7 @@ public class Coin1 : MonoBehaviour, IDataPercistence
             }
            
          //   Destroy(GetComponent<Collider2D>().gameObject);
-            Debug.Log(CurrentCoins.numCoins);
+        
         }
     }
 
@@ -57,7 +57,7 @@ public class Coin1 : MonoBehaviour, IDataPercistence
     {
      
             data.coinCollected.TryGetValue(id, out collected);
-        Debug.Log("id " + id + "collected "+ collected);
+
             if (this.collected)
             {
             gameObject.SetActive(false);
