@@ -20,5 +20,14 @@ public class HealthPot : MonoBehaviour
     void Update()
     {
         potionCounterText.text = " : " + numberOfPotions;
+
+        if (HealthPot.numberOfPotions >= 1)
+        {
+            if (Input.GetKeyDown(KeyCode.P))
+            {
+                Health.IncreaseHealth(1);
+                numberOfPotions--;
+            }
+        }
     }
 }
