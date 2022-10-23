@@ -23,6 +23,9 @@ public class DataPercistenceManager : MonoBehaviour
 
     private void Awake()
     {
+        dataPercistenceObjects = new List<IDataPercistence>();
+        gameData = new GameData();
+
         Debug.Log("awake");
         if (instance != null && instance != this)
         {
@@ -38,7 +41,6 @@ public class DataPercistenceManager : MonoBehaviour
             DontDestroyOnLoad(this.gameObject);
             Debug.Log("3");
 
-       
 
         this.dataHandler = new FileDataHandler(Application.persistentDataPath, fileName);
 
