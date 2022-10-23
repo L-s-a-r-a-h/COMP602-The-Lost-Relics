@@ -36,7 +36,7 @@ public class Relic1 : MonoBehaviour, IDataPercistence
 
         
           //  Destroy(GetComponent<Collider2D>().gameObject);
-            Debug.Log("Relic Collected");
+       //     Debug.Log("Relic Collected");
           
         }
     }
@@ -53,7 +53,7 @@ public class Relic1 : MonoBehaviour, IDataPercistence
     {
 
         data.RelicsCollected.TryGetValue(id, out collected);
-        Debug.Log("id " + id + "collected " + collected);
+      //  Debug.Log("id " + id + "collected " + collected);
         if (this.collected)
         {
             gameObject.SetActive(false);

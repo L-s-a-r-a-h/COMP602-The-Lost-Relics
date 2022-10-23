@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 5340538105306347130}
   - component: {fileID: 5340538105306347131}
   - component: {fileID: 7147082787655080020}
+  - component: {fileID: 7429886791984435435}
   - component: {fileID: 2400146368764488574}
   m_Layer: 6
   m_Name: PF Village Props - Crate Large
@@ -112,6 +113,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 1.3456306, y: 1.3418424}
   m_EdgeRadius: 0
+--- !u!114 &7429886791984435435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5340538105306347133}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c77e376a875837b4a8108546107c1265, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: eb1
 --- !u!50 &2400146368764488574
 Rigidbody2D:
   serializedVersion: 4

@@ -2,18 +2,53 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Key : MonoBehaviour
+public class Key : MonoBehaviour, IDataPercistence
 {
-     private void OnTriggerEnter2D(Collider2D collision)
+    [SerializeField] private string id;
+    private bool collected = false;
+    [ContextMenu("Generate guid for id")]
+
+
+    private void GenerateGuid()
     {
-        //When the player collides with the relic, its added to there invintory
-        //the relic will be destroyed in the scene so it can only be collected once.
+        id = System.Guid.NewGuid().ToString();
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        //When the player collides with the key, its added to there invintory
+        //the key will be destroyed in the scene so it can only be collected once.
 
         if (collision.transform.tag == "Player")
         {
+
             Keys.numKeys++;
-            Destroy(GetComponent<Collider2D>().gameObject);
+            collected = true;
+            gameObject.SetActive(false);
+            //    Destroy(GetComponent<Collider2D>().gameObject);
             Debug.Log("Key Collected");
         }
+    }
+
+    public void LoadData(GameData data)
+    {
+
+        data.KeysCollected.TryGetValue(id, out collected);
+
+        if (this.collected)
+        {
+            gameObject.SetActive(false);
+        }
+
+
+    }
+
+    public void SaveData(ref GameData data)
+    {
+        if (data.KeysCollected.ContainsKey(id))
+        {
+            data.KeysCollected.Remove(id);
+        }
+        data.KeysCollected.Add(id, collected);
     }
 }
