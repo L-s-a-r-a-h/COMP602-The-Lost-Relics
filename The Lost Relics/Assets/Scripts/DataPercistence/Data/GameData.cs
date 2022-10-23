@@ -9,7 +9,7 @@ public class GameData
 {
     public int coins_balance;
     public float current_health;
-    public int relics;
+    public float relics;
     public serialisableType<string, bool> RelicsCollected;
     public Vector3 playerPosition;
     public string scene;

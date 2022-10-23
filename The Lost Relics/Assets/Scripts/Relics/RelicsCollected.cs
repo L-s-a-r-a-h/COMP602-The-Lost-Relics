@@ -3,20 +3,21 @@ using UnityEngine.UI;
 
 public class RelicsCollected : MonoBehaviour
 {
-    public static int numRelics;
+    public static float numRelics;
     [SerializeField] private Image currentRelics;
 
-    // start game with 0 coins
-    //will update once load function is ready
+  
     private void Awake()
     {
-        currentRelics.fillAmount = numRelics / 10;
         numRelics = 0;
+        Debug.Log("Number of relics: "+numRelics);
+        currentRelics.fillAmount = numRelics / 10;
+       
     }
 
-    // keeps track of the amount of coins collected and updates the hud.
     void Update()
     {
+        Debug.Log("Number of relics: "+numRelics);
         currentRelics.fillAmount = numRelics / 10;
     }
 }
