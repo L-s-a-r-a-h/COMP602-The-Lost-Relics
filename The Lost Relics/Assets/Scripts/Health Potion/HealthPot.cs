@@ -7,7 +7,6 @@ public class HealthPot : Potion
 {
     public override void Consume()
     {
-
         numberOfPotions = 0;
     }
 
