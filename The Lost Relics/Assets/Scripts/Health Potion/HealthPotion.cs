@@ -6,9 +6,15 @@ public class HealthPotion : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.name == "Player" && Health.IncreaseHealth(healthValue))
+        if (collision.gameObject.name == "Player")
         {
-            gameObject.SetActive(false);
+            //&& Health.IncreaseHealth(healthValue)
+
+
+            HealthPot.numberOfPotions++;
+            Destroy(GetComponent<Collider2D>().gameObject);
+            Debug.Log("HP potion collected");
+            
         }
     }
 }
