@@ -8,6 +8,7 @@ public class DialogueManager : MonoBehaviour
     [SerializeField] public TextMeshProUGUI nameText;
     [SerializeField] public TextMeshProUGUI dialogueText;
     [SerializeField] public Animator animator;
+    [SerializeField] public Animator shopAnimator;
     [SerializeField] public Image image;
     private Queue<string> sentences;
     private IEnumerator coroutine;
@@ -27,7 +28,10 @@ public class DialogueManager : MonoBehaviour
         animator.SetBool("IsOpen", true);
         nameText.text = dialogue.name;
         image.sprite = dialogue.NPCimage;
-  
+        if (dialogue.name == "shopKeeper")
+        {
+            shopAnimator.SetBool("IsShopOpen", true);
+        }
 
         sentences.Clear();
 
@@ -66,6 +70,7 @@ public class DialogueManager : MonoBehaviour
     public void EndDialogue()
     {
         animator.SetBool("IsOpen", false);
+        shopAnimator.SetBool("IsShopOpen", false);
         talking = false;
 
     }
