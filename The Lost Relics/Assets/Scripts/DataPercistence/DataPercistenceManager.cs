@@ -9,7 +9,8 @@ public class DataPercistenceManager : MonoBehaviour
 
     [Header("File storage config")]
 
-    [SerializeField] private string fileName;
+    // [SerializeField] private string fileName;
+    private string fileName = "gameData";
 
     private GameData gameData;
     private List<IDataPercistence> dataPercistenceObjects;
@@ -69,9 +70,11 @@ public class DataPercistenceManager : MonoBehaviour
     
 
 
-    private void newGame()
+    public void newGame()
     {
         this.gameData = new GameData();
+        gameData.scene = "Tutorial";
+        saveGame();
     }
 
     public void saveGame()
@@ -90,22 +93,14 @@ public class DataPercistenceManager : MonoBehaviour
         if (this.gameData == null)
         {
             Debug.Log("no game data found. starting new game");
-            newGame();
-         //   return;
+          //  newGame();
+            return;
         }
     }
     public void loadGame()
     {
         this.loadData();
-        /*
-        this.gameData = dataHandler.Load();
 
-        if (this.gameData == null)
-        {
-            Debug.Log("no game data found. starting new game");
-            return;
-        } 
-        */
         foreach (IDataPercistence dataPercistenceObject in dataPercistenceObjects)
         {
             dataPercistenceObject.LoadData(gameData);
