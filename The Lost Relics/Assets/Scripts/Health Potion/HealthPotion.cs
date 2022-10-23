@@ -8,13 +8,9 @@ public class HealthPotion : MonoBehaviour
     {
         if (collision.gameObject.name == "Player")
         {
-            //&& Health.IncreaseHealth(healthValue)
-
-
             HealthPot.numberOfPotions++;
             Destroy(GetComponent<Collider2D>().gameObject);
-            Debug.Log("HP potion collected");
-            
+            Debug.Log("HP potion collected");    
         }
     }
 }

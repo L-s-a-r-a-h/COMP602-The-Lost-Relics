@@ -25,9 +25,14 @@ public class HealthPot : MonoBehaviour
         {
             if (Input.GetKeyDown(KeyCode.P))
             {
-                Health.IncreaseHealth(1);
-                numberOfPotions--;
+                healthPotionUse();
             }
         }
+    }
+
+    public void healthPotionUse()
+    {
+        Health.IncreaseHealth(1);
+        numberOfPotions--;
     }
 }

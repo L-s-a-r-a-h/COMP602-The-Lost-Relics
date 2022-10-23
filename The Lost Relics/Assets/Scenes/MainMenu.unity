@@ -3691,11 +3691,15 @@ MonoBehaviour:
   m_Value: 0
   m_Options:
     m_Options:
+    - m_Text: Very Low
+      m_Image: {fileID: 0}
     - m_Text: Low
       m_Image: {fileID: 0}
     - m_Text: Medium
       m_Image: {fileID: 0}
     - m_Text: High
+      m_Image: {fileID: 0}
+    - m_Text: Very High
       m_Image: {fileID: 0}
     - m_Text: Ultra
       m_Image: {fileID: 0}
@@ -3703,7 +3707,7 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 6744483}
-        m_TargetAssemblyTypeName: MenuController, Assembly-CSharp
+        m_TargetAssemblyTypeName: MenuController, GameAssembly
         m_MethodName: SetQuality
         m_Mode: 0
         m_Arguments:
@@ -4968,7 +4972,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6ce548543175144a5b789cbe35979f2e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fileName: test1
 --- !u!4 &565234683
 Transform:
   m_ObjectHideFlags: 0
@@ -5349,7 +5352,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Low
+  m_text: Very Low
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -10242,6 +10245,7 @@ GameObject:
   - component: {fileID: 1474128348}
   - component: {fileID: 1474128347}
   - component: {fileID: 1474128346}
+  - component: {fileID: 1474128350}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -10336,6 +10340,35 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!114 &1474128350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474128345}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 90a4cbcc048d62d4e8acda5ea5c25e2b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTextValue: {fileID: 1383345683}
+  volumeSlider: {fileID: 1441895942}
+  defaultVolume: 1
+  ControllerSensitivityTextValue: {fileID: 151952762}
+  controllerSensitivitySlider: {fileID: 406000630}
+  defaultSensitivity: 4
+  mainControllerSensitivity: 4
+  invertYToggle: {fileID: 394115920}
+  brightnessSlider: {fileID: 836065818}
+  brightnessTextValue: {fileID: 806853853}
+  defaultBrightness: 1
+  qualityDropdown: {fileID: 454340676}
+  fullScreenToggle: {fileID: 154403896}
+  confirmationPrompt: {fileID: 1039438069}
+  newGameLevel: Tutorial
+  noSavedGameDialog: {fileID: 857568099}
+  resolutionDropdown: {fileID: 114857596}
 --- !u!1 &1480863884
 GameObject:
   m_ObjectHideFlags: 0
