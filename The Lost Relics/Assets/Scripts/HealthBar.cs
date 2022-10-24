@@ -14,5 +14,6 @@ public class HealthBar : MonoBehaviour
     private void Update()
     {
         currentHealth.fillAmount = Health.CurrentHealth / 10;
+        
     }
 }
