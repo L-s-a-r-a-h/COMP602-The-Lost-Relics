@@ -10,7 +10,7 @@ public class MenuController : MonoBehaviour
     [Header("Volume Setting")]
     [SerializeField] private TMP_Text volumeTextValue = null;
     [SerializeField] private Slider volumeSlider = null;
-    [SerializeField] private float defaultVolume = 1.0f;
+    [SerializeField] private float defaultVolume = 0.5f;
 
     [Header("Gameplay Settings")]
     [SerializeField] private TMP_Text ControllerSensitivityTextValue = null;
@@ -94,18 +94,6 @@ public class MenuController : MonoBehaviour
         }else{
             SceneManager.LoadScene(levelToLoad);
         }
-        
-
-        /* if (PlayerPrefs.HasKey("SavedLevel"))
-         {
-             levelToLoad = PlayerPrefs.GetString("SavedLevel");
-             SceneManager.LoadScene(levelToLoad);
-         }
-         else
-         {
-             noSavedGameDialog.SetActive(true);
-         }
-        */
     }
 
     public void ExitButton()
