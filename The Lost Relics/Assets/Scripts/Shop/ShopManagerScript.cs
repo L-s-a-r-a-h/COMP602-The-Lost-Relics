@@ -58,6 +58,10 @@ public class ShopManagerScript : MonoBehaviour
             {
                 HealthPot.numberOfPotions++;
             }
+            if (shopItems[1, ButtonRef.GetComponent<ButtonInfo>().ItemID] == 2)
+            {
+                MaxUpgrade.numberOfMaxPotions++;
+            }
         }
 
 
