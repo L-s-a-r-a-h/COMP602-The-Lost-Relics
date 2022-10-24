@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class MaxUpgrade : MonoBehaviour
 {
-    public static int numberOfPotions;
+    public static int numberOfMaxPotions;
     public TextMeshProUGUI potionCounterText;
 
     /*
@@ -13,13 +13,13 @@ public class MaxUpgrade : MonoBehaviour
      */
     public void Awake()
     {
-        numberOfPotions = 0;
+        numberOfMaxPotions = 0;
     }
 
     // updates the number of potions currently held and changes the counter on the HUD.
     public void Update()
     {
-        potionCounterText.text = " : " + numberOfPotions;
+        potionCounterText.text = " : " + numberOfMaxPotions;
 
         if (HealthPot.numberOfPotions >= 1)
         {
@@ -33,6 +33,10 @@ public class MaxUpgrade : MonoBehaviour
     private void Consume()
     {
         Health.MaxHealth++;
-        numberOfPotions--;
+        if(numberOfMaxPotions > 0)
+        {
+            numberOfMaxPotions--;
+        }
+        
     }
 }
