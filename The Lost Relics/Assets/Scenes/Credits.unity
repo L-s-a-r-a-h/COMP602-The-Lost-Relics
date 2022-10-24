@@ -372,7 +372,8 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The Lost Relics\n\nTo be continued...\n\n\nDevelopment Team:\tElle\n\t\t\tZack\n\t\t\tEirik\n\t\t\tSarah\n\t\t\tBenjamin\n\t"
+  m_text: "The Lost Relics\n\n\n\nTo be continued...\n\n\n\n\nDevelopment Team:\t\n\nElle\nZack\nEirik\nSarah\nBenjamin\n\nA
+    special thanks to\n\n\n\n"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
