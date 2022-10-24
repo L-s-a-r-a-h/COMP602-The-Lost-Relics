@@ -10,6 +10,7 @@ public class OpenChest : Interactable
     public Transform startPos;
     public GameObject item;
     public bool locked;
+    public bool opened;
     [SerializeField] private TextMeshPro message;
 
     
@@ -20,12 +21,14 @@ public class OpenChest : Interactable
         anim = GetComponent<Animator>();
         anim.enabled = false;
         message.enabled = false;
+        opened = false;
 
     }
 
     public override void Interact()
     {
-     
+     if(opened == false)
+        {
             if (locked == true)
             {
                 if(Keys.numKeys > 0)
@@ -33,6 +36,7 @@ public class OpenChest : Interactable
                     Keys.numKeys--;
                     Debug.Log("Opened, key used");
                     anim.enabled = true;
+                    opened = true;
                     anim.Play("AM Chest Golden - Open");
                     Instantiate(item, startPos.position, startPos.rotation);
                     
@@ -48,8 +52,10 @@ public class OpenChest : Interactable
                 anim.enabled = true;
                 anim.Play("AM Chest Wooden - Open");
                 Instantiate(item, startPos.position, startPos.rotation);
+                opened = true;
                 Debug.Log("Opened");
             }
+        }
         
     }
 

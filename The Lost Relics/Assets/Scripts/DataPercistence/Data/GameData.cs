@@ -11,7 +11,7 @@ public class GameData
     public float current_health;
     public float max_health;
     public int keys_balance; 
-    public int relics;
+    public float relics;
     public string scene;
     public Vector3 playerPosition;
     public serialisableType<string, bool> coinCollected;
