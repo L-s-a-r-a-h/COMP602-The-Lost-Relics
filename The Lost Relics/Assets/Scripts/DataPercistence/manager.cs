@@ -19,7 +19,7 @@ public class manager : MonoBehaviour, IDataPercistence
         Health.MaxHealth = data.max_health;
         Keys.numKeys = data.keys_balance;
         HealthPot.numberOfPotions = data.healthPotion_balance;
-
+        MaxUpgrade.numberOfMaxPotions = data.maxHealthPotion_balance;
 
 
     }
@@ -35,6 +35,7 @@ public class manager : MonoBehaviour, IDataPercistence
         data.max_health = Health.MaxHealth;
         data.keys_balance = Keys.numKeys;
         data.healthPotion_balance = HealthPot.numberOfPotions;
+        data.maxHealthPotion_balance = MaxUpgrade.numberOfMaxPotions;
         //  data.scene = SceneManager.GetActiveScene().name;
 
     }

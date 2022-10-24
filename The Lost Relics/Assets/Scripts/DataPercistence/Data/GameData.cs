@@ -12,6 +12,7 @@ public class GameData
     public float max_health;
     public int keys_balance;
     public int healthPotion_balance;
+    public int maxHealthPotion_balance;
     public float relics;
     public string scene;
   
@@ -34,6 +35,7 @@ public class GameData
         this.coins_balance = 0;
         this.current_health = 5;
         this.healthPotion_balance = 0;
+        this.maxHealthPotion_balance = 0;
         this.relics = 0;
         scene = "";
 
