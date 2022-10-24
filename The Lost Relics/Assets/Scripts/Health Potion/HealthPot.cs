@@ -32,7 +32,11 @@ public class HealthPot : MonoBehaviour
 
     public void healthPotionUse()
     {
-        Health.IncreaseHealth(1);
-        numberOfPotions--;
+        if(Health.CurrentHealth < 5)
+        {
+            Health.IncreaseHealth(1);
+            numberOfPotions--;
+        }
+        
     }
 }
