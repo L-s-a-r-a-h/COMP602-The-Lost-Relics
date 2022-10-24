@@ -18,6 +18,7 @@ public class manager : MonoBehaviour, IDataPercistence
         RelicsCollected.numRelics = data.relics;
         Health.MaxHealth = data.max_health;
         Keys.numKeys = data.keys_balance;
+        HealthPot.numberOfPotions = data.healthPotion_balance;
 
 
 
@@ -33,6 +34,7 @@ public class manager : MonoBehaviour, IDataPercistence
         data.current_health = Health.CurrentHealth;
         data.max_health = Health.MaxHealth;
         data.keys_balance = Keys.numKeys;
+        data.healthPotion_balance = HealthPot.numberOfPotions;
         //  data.scene = SceneManager.GetActiveScene().name;
 
     }
