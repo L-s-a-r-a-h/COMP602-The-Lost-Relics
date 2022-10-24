@@ -61,7 +61,7 @@ public class MenuController : MonoBehaviour
             string option = resolutions[i].width + "x" + resolutions[i].height;
             options.Add(option);
 
-            if (resolutions[i].width == Screen.width && resolutions[i].height == Screen.height)
+            if (resolutions[i].width == Screen.currentResolution.width && resolutions[i].height == Screen.currentResolution.height)
             {
                 currentResolutionIndex = i;
             }
@@ -157,12 +157,12 @@ public class MenuController : MonoBehaviour
 
     public void SetFullScreen(bool isFullscreen)
     {
-        isFullScreen = isFullscreen;
+        Screen.fullScreen = isFullScreen;
     }
 
     public void SetQuality(int qualityIndex)
     {
-        qualityLevel = qualityIndex;
+        QualitySettings.SetQualityLevel(qualityIndex);
     }
 
     public void GraphicsApply()
