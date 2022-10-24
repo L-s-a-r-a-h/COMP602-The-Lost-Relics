@@ -8,12 +8,12 @@ public class ButtonInfo : MonoBehaviour
 {
     public int ItemID;
     [SerializeField] public TextMeshProUGUI PriceTxt;
-    [SerializeField] public TextMeshProUGUI QuantityTxt;
+    //[SerializeField] public TextMeshProUGUI QuantityTxt;
     public GameObject ShopManager;
 
     void Update()
     {
         PriceTxt.text = "" + ShopManager.GetComponent<ShopManagerScript>().shopItems[2, ItemID].ToString();
-        QuantityTxt.text = ShopManager.GetComponent<ShopManagerScript>().shopItems[3, ItemID].ToString();
+        //QuantityTxt.text = ShopManager.GetComponent<ShopManagerScript>().shopItems[3, ItemID].ToString();
     }
 }
