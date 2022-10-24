@@ -1,23 +1,23 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using TMPro;
+using UnityEngine.UI;
 
 public class RelicsCollected : MonoBehaviour
 {
-    public static int numRelics;
-    public TextMeshProUGUI relicText;
+    public static float numRelics;
+    [SerializeField] private Image currentRelics;
 
-    // start game with 0 coins
-    //will update once load function is ready
+  
     private void Awake()
     {
         numRelics = 0;
+        Debug.Log("Number of relics: "+numRelics);
+        currentRelics.fillAmount = numRelics / 10;
+       
     }
 
-    // keeps track of the amount of coins collected and updates the hud.
     void Update()
     {
-        relicText.text = "Relics: " + numRelics;
+        Debug.Log("Number of relics: "+numRelics);
+        currentRelics.fillAmount = numRelics / 10;
     }
 }
