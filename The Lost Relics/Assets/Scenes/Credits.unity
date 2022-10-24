@@ -372,8 +372,44 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "The Lost Relics\n\n\n\nTo be continued...\n\n\n\n\nDevelopment Team:\t\n\nElle\nZack\nEirik\nSarah\nBenjamin\n\nA
-    special thanks to\n\n\n\n"
+  m_text: 'The Lost Relics
+
+
+
+
+
+
+    Development Team:
+
+
+    Elle Ishiwata-Ryan
+
+    Zack
+    Lim
+
+    Eirik Mykel Navarro Enriquez
+
+    Sarah Li
+
+    Benjamin Polglase
+
+
+    A
+    special thanks to
+
+
+    Matthew Kuo
+
+    Farzana Zahid
+
+
+
+
+
+    To be continued...
+
+
+'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -416,7 +452,7 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_enableWordWrapping: 0
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
