@@ -10,9 +10,11 @@ public class GameData
     public int coins_balance;
     public float current_health;
     public float max_health;
-    public int keys_balance; 
+    public int keys_balance;
+    public int healthPotion_balance;
     public float relics;
     public string scene;
+  
     public Vector3 playerPosition;
     public serialisableType<string, bool> coinCollected;
     public serialisableType<string, bool> RelicsCollected;
@@ -31,6 +33,7 @@ public class GameData
         this.max_health = 5;
         this.coins_balance = 0;
         this.current_health = 5;
+        this.healthPotion_balance = 0;
         this.relics = 0;
         scene = "";
 
