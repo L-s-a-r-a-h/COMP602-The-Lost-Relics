@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class HealthPotion : MonoBehaviour
+public class HealthPotion : MonoBehaviour, IDataPercistence
 {
     [SerializeField] private float healthValue;
     private bool collected = false;
