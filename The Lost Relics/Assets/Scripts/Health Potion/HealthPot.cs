@@ -26,6 +26,7 @@ public class HealthPot : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.P))
             {
                 healthPotionUse();
+               
             }
         }
     }
