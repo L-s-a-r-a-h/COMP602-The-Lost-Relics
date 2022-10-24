@@ -9,7 +9,7 @@ public class Health : MonoBehaviour
 
     private void Awake() 
     {
-        MaxHealth = 3;
+        MaxHealth = 5;
         CurrentHealth = MaxHealth;
         Hurt = false;
         Dead = false;
