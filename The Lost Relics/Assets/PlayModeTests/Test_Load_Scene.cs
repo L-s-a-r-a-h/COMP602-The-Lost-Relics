@@ -25,36 +25,37 @@ public class Test_data_Save
     public IEnumerator Test_New_Game_Passes()
     {
         GameObject go = GameObject.Instantiate(new GameObject());
-
-        DataPercistenceManager dpm = go.AddComponent<DataPercistenceManager>();
+        DataPercistenceManager dataPercistenceObject = go.AddComponent<DataPercistenceManager>();
+      
         string startScene = "Tutorial";
 
-        dpm.newGame();
+        dataPercistenceObject.newGame();
 
         yield return new WaitForSeconds(0.1f);
-        string getSceneName = dpm.getSceneName();
+
+        string getSceneName = dataPercistenceObject.getSceneName();
         Assert.AreEqual(startScene, getSceneName);
-        GameObject.Destroy(dpm.gameObject);
+        GameObject.Destroy(dataPercistenceObject.gameObject);
 
     }
 
 
 
     [Test]
-    public void Test_Save_Scene_Name_Passes()
+    public void Test_Move_Scene_Passes()
     {
         GameObject go = GameObject.Instantiate(new GameObject());
 
-        DataPercistenceManager dpm = go.AddComponent<DataPercistenceManager>();
+        DataPercistenceManager dataPercistenceObject = go.AddComponent<DataPercistenceManager>();
 
         string nextSceneName = "hello";
 
-        dpm.nextScene(nextSceneName);
+        dataPercistenceObject.nextScene(nextSceneName);
 
-        string savedSceneName = dpm.getSceneName();
+        string savedSceneName = dataPercistenceObject.getSceneName();
         //Assert.Equals(nextSceneName, savedSceneName);
         Assert.AreEqual(nextSceneName, savedSceneName);
-        GameObject.Destroy(dpm.gameObject);
+        GameObject.Destroy(dataPercistenceObject.gameObject);
     }
 
 
