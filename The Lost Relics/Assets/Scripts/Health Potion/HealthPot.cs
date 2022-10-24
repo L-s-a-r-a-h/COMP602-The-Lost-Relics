@@ -3,9 +3,15 @@ using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
 
-public class HealthPot : Potion
+public class HealthPot : MonoBehaviour
 {
-    public override void Consume()
+    public static int numberOfPotions;
+    public TextMeshProUGUI potionCounterText;
+    
+    /*
+     * Starts the game with 0 potions
+     */
+    public void Awake()
     {
         numberOfPotions = 0;
     }
