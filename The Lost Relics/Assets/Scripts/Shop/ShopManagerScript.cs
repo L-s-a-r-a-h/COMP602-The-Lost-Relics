@@ -56,7 +56,7 @@ public class ShopManagerScript : MonoBehaviour
             }
             if(shopItems[1, ButtonRef.GetComponent<ButtonInfo>().ItemID] == 1)
             {
-                Potion.numberOfPotions++;
+                HealthPot.numberOfPotions++;
             }
         }
 
