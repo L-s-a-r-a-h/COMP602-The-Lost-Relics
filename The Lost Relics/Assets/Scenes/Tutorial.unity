@@ -332,6 +332,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7286825473982008894, guid: a5227ae4dcd9d8449a061662ed6f53cd, type: 3}
+      propertyPath: m_AnchorMax.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7286825473982008894, guid: a5227ae4dcd9d8449a061662ed6f53cd, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8910234078805321010, guid: a5227ae4dcd9d8449a061662ed6f53cd, type: 3}
       propertyPath: m_Name
       value: PauseMenu (Updated)
@@ -10477,6 +10485,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2023312622}
     m_Modifications:
+    - target: {fileID: 1072013450762203271, guid: 0e521ddc9acc308409343825a997fd4d, type: 3}
+      propertyPath: id
+      value: tutorialRelic
+      objectReference: {fileID: 0}
     - target: {fileID: 2227359562492225303, guid: 0e521ddc9acc308409343825a997fd4d, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -12468,7 +12480,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7773851, y: 1}
+    m_SensorSize: {x: 1.7780678, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
