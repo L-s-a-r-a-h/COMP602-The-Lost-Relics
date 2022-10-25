@@ -24,8 +24,8 @@ public class ShopManagerScript : MonoBehaviour
 
         //Price
         shopItems[2, 1] = 10;
-        shopItems[2, 2] = 20;
-        shopItems[2, 3] = 30;
+        shopItems[2, 2] = 30;
+        shopItems[2, 3] = 3;
         shopItems[2, 4] = 40;
 
         //Quantity

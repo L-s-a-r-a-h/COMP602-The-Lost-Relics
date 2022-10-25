@@ -9,12 +9,11 @@ public class Health : MonoBehaviour
 
     private void Awake() 
     {
-        MaxHealth = 5;
+        //MaxHealth = 5;
         CurrentHealth = MaxHealth;
         Hurt = false;
         Dead = false;
     }
-
     public static void DecreaseHealth(float health)
     {
         CurrentHealth -= health;
@@ -31,12 +30,8 @@ public class Health : MonoBehaviour
             // play dead animation, go to dead screen etc.
             Dead = true;
             Debug.Log("Dead");
-
-
-    
         }
     }
-
     // returns true if increased health
     // returns false if player has maximum health already
     public static bool IncreaseHealth(float health)
@@ -51,7 +46,6 @@ public class Health : MonoBehaviour
 
         return false;
     }
-    
     // Press 'F' to test damage
     public void Update()
     {

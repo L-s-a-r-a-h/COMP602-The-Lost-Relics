@@ -32,10 +32,18 @@ public class MaxUpgrade : MonoBehaviour
 
     private void Consume()
     {
-        Health.MaxHealth++;
+       
         if(numberOfMaxPotions > 0)
         {
-            numberOfMaxPotions--;
+            if(Health.CurrentHealth <= Health.MaxHealth)
+            {
+                Health.CurrentHealth = Health.MaxHealth;
+                Health.MaxHealth++;
+                Health.CurrentHealth++;
+                numberOfMaxPotions--;
+            }
+             
+            
         }
         
     }

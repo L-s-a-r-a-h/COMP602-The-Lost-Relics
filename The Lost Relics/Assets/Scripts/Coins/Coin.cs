@@ -22,10 +22,21 @@ public class Coin : MonoBehaviour
 
         if(collision.transform.tag == "Player")
         {
-            CurrentCoins.numCoins = (CurrentCoins.numCoins+ value);
-            Destroy(GetComponent<Collider2D>().gameObject);
-            Debug.Log(CurrentCoins.numCoins);
+            collect();
         }
     }
+
+    public void coinValue()
+    {
+        CurrentCoins.numCoins = (CurrentCoins.numCoins + value);
+    }
+    
+    public void collect()
+    {
+        coinValue();
+        Destroy(GetComponent<Collider2D>().gameObject);
+        Debug.Log(CurrentCoins.numCoins);
+    }
+
 
 }
