@@ -5,11 +5,12 @@ The Lost Relics is a 2D platformer game created by a team of the same name at AU
 This project was done using the Unity editor version 2021.3.8f1, and Microsoft Visual Studio 2022.
 
 ## How to install this product
-Pull from 'Release' Branch then and open the file in Unity Editor.<br /> 
-Open 'Build Settings...' from File tab in Unity Editor, then click 'Build And Run'
+Pull from 'Release' Branch then and open the file.<br /> 
+
 
 ## How to use this product
-After Building, you can open the game application from where you saved the file!
+
+After pulling from the branch, open the executable application from the 'COMP602-The-Lost-Relics' folder!!
 Then you can start playing the game! 
 
 Have fun!!
