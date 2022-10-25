@@ -33,7 +33,7 @@ public class HealthPot : MonoBehaviour
 
     public void healthPotionUse()
     {
-        if(Health.CurrentHealth < 5)
+        if(Health.CurrentHealth < Health.MaxHealth)
         {
             Health.IncreaseHealth(1);
             numberOfPotions--;
