@@ -6,10 +6,11 @@ This project was done using the Unity editor version 2021.3.8f1, and Microsoft V
 
 ## How to install this product
 Pull from 'Release' Branch then and open the file in Unity Editor.<br /> 
-Open 'Build Settings...' from File tab in Unity Editor, then click 'Build And Run'
+
 
 ## How to use this product
-After Building, you can open the game application from where you saved the file!
+
+After pulling from the branch, open the executable application!!
 Then you can start playing the game! 
 
 Have fun!!
