@@ -10,7 +10,7 @@ Pull from 'Release' Branch then and open the file.<br />
 
 ## How to use this product
 
-After pulling from the branch, open the executable application from the 'COMP602-The-Lost-Relics' folder!!
+After pulling from the branch, open the executable application "The Lost Relics.exe" from the 'COMP602-The-Lost-Relics/Game' folder!!
 Then you can start playing the game! 
 
 Have fun!!
