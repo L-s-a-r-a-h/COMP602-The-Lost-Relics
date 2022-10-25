@@ -46,13 +46,5 @@ public class Health : MonoBehaviour
 
         return false;
     }
-    // Press 'F' to test damage
-    public void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.F))
-        {
-            DecreaseHealth(1);
-        }
-        
-    }
+    
 }
