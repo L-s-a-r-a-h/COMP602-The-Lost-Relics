@@ -35844,7 +35844,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4126458222886195654, guid: a5227ae4dcd9d8449a061662ed6f53cd, type: 3}
       propertyPath: m_RootOrder
-      value: 1
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 4126458222886195654, guid: a5227ae4dcd9d8449a061662ed6f53cd, type: 3}
       propertyPath: m_LocalPosition.x
@@ -112540,7 +112540,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1491143302153521340, guid: 998416a102e165d45af6d1d6303f7124, type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 1637573281015253264, guid: 998416a102e165d45af6d1d6303f7124, type: 3}
       propertyPath: m_RootOrder
@@ -115299,6 +115299,18 @@ PrefabInstance:
     - target: {fileID: 4909648636062632056, guid: fa8aa405d0f8ee444ac41729bb83b5cc, type: 3}
       propertyPath: nextSceneName
       value: Zakki
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909648636062632056, guid: fa8aa405d0f8ee444ac41729bb83b5cc, type: 3}
+      propertyPath: sceneStartPosition.x
+      value: 7.909998
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909648636062632056, guid: fa8aa405d0f8ee444ac41729bb83b5cc, type: 3}
+      propertyPath: sceneStartPosition.y
+      value: -19.45162
+      objectReference: {fileID: 0}
+    - target: {fileID: 4909648636062632056, guid: fa8aa405d0f8ee444ac41729bb83b5cc, type: 3}
+      propertyPath: sceneStartPosition.z
+      value: -5.73896
       objectReference: {fileID: 0}
     - target: {fileID: 4909648636062632057, guid: fa8aa405d0f8ee444ac41729bb83b5cc, type: 3}
       propertyPath: m_Name
