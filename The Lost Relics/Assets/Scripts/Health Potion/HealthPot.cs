@@ -26,13 +26,14 @@ public class HealthPot : MonoBehaviour
             if (Input.GetKeyDown(KeyCode.P))
             {
                 healthPotionUse();
+               
             }
         }
     }
 
     public void healthPotionUse()
     {
-        if(Health.CurrentHealth < 5)
+        if(Health.CurrentHealth < Health.MaxHealth)
         {
             Health.IncreaseHealth(1);
             numberOfPotions--;

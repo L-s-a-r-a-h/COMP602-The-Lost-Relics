@@ -35,9 +35,14 @@ public class MaxUpgrade : MonoBehaviour
        
         if(numberOfMaxPotions > 0)
         {
-            //Health.MaxHealth++;
-            Health.CurrentHealth++;
-            numberOfMaxPotions--;
+            if(Health.CurrentHealth <= Health.MaxHealth)
+            {
+                Health.CurrentHealth = Health.MaxHealth;
+                Health.MaxHealth++;
+                Health.CurrentHealth++;
+                numberOfMaxPotions--;
+            }
+             
             
         }
         
