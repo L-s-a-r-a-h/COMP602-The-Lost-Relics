@@ -21,7 +21,7 @@ public class MaxUpgrade : MonoBehaviour
     {
         potionCounterText.text = " : " + numberOfMaxPotions;
 
-        if (HealthPot.numberOfPotions >= 1)
+        if (MaxUpgrade.numberOfMaxPotions >= 1)
         {
             if (Input.GetKeyDown(KeyCode.O))
             {
