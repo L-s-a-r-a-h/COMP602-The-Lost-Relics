@@ -10689,6 +10689,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 2023312622}
     m_Modifications:
+    - target: {fileID: 1072013450762203271, guid: 0e521ddc9acc308409343825a997fd4d, type: 3}
+      propertyPath: id
+      value: TutorialRelic
+      objectReference: {fileID: 0}
     - target: {fileID: 2227359562492225303, guid: 0e521ddc9acc308409343825a997fd4d, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -12680,7 +12684,7 @@ MonoBehaviour:
     ModeOverride: 0
     LensShift: {x: 0, y: 0}
     GateFit: 2
-    m_SensorSize: {x: 1.7782102, y: 1}
+    m_SensorSize: {x: 1.7781754, y: 1}
   m_Transitions:
     m_BlendHint: 0
     m_InheritPosition: 0
